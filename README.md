@@ -1,2 +1,2 @@
-# ml-literature
-This repository contains a collection of research papers and other literature that I gathered during my own learning journey.
+# my-notes
+This repository contains a collection of notes and useful links I gathered during my own learning journey.
