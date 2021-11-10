@@ -1,4 +1,4 @@
-# Cheatsheet - terminal
+# Cheatsheet - Terminal
 
 ## Environment variables
 
@@ -38,7 +38,7 @@ source venv/bin/activate
 deactivate
 ```
 
-### Using virtualenv with Jupyter
+### Using virtualenv with Jupyter Lab
 
 Setting up Jupiter lab:
 
