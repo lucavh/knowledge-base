@@ -1,4 +1,4 @@
-# Cheatsheet - Terminal
+# Terminal
 
 ## Environment variables
 

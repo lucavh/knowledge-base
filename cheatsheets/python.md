@@ -1,4 +1,4 @@
-# Cheatsheet - Python
+# Python
 
 ## Formatted strings
 ```python
