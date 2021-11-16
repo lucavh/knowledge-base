@@ -85,3 +85,16 @@ Geography > Region (Region Pairs) > Availability Zone > Data Center
 - __Availability zones__:
     - Physically separate data centers within an Azure region.
 
+## Interacting with Azure
+- Azure Portal
+    - Top menu: Cloud Shell - Directory & Subscription - Notifications - Settings - Help & Support - Feedback - Profile
+    - Azure Monitor: personal recommendations on availability, security, performance, operational excellence and cost
+    - Dashboards: high-level details about Azure environment
+- Azure PowerShell: module that you van install for Windows PowerShell or PowerShell core (cross-platform).
+- Azure CLI: cross-platform command-line program that let's you connect to and execute commands on Azure.
+- Azure Cloud Shell: browser-based command-line for managing and developing Azure resources. You can use two flavours: Bash and PowerShell
+- Azure SDKs
+
+## Azure Preview Features
+- Private previews do not have SLA's, do not have support, are only made available to a specific group by invite only.
+- Public previews do not have SLA's, do not have support, are available for all customers through the preview features page.
