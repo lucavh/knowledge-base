@@ -1,4 +1,4 @@
-# AZ-900 Microsoft Azure Fundamentals
+# AZ-900 - Summary
 
 ## Cloud Basics
 - Benefits of cloud computing:
