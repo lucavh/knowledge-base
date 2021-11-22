@@ -18,22 +18,24 @@
 ---
 ### SaaS, PaaS, IaaS
 - Office 365, Azure VMs and Event Grid represent, SaaS, IaaS and Paas, respectively.
-- With Software as a Service you are responsible for configuring the solution features. Not for maintaining infra, not for deploying updates, not for availability and scalability. 
-- Azure App Service, Azure SQL Database, and Cosmos DB are examples of Platform as a Service. 
-Hosting databases for customer-facing web applications in Azure MySQL Database is an example of platform as a service.
-- Azure VMs are Infrastructure as a Service.
+- With SaaS you are responsible for configuring the solution features. Not for maintaining infra, not for deploying updates, not for availability and scalability. 
+- Azure App Service, Azure SQL Database, and Cosmos DB are examples of PaaS. 
+- Hosting databases for customer-facing web applications in Azure MySQL Database is an example of PaaS.
+- Azure VMs are IaaS.
 ---
-### Azure Datacenters
-- Azure availability zones are physically separate locations within each Azure region that are tolerant to local failures. By utilising availability zones, the service will remain available if a single Azure datacenter fails.
+### Azure Region
 - Each Azure Region features datacenters deployed within a latency-defined perimeter. They're connected through a dedicated regional low-latency network. 
-- ⚠️ An Azure Availability Sets protects against server rack-level failures. 
 - Azure China 
-	- An Azure Availability Zone protects against datacenter-level failures.
 	- ⚠️ Azure China is available to legal entities in China. Not any organisation globally, doing business in China. 
 	- Can workloads deployed on Azure China be accessed anywhere globally? Yes, you can access your workloads deployed on Azure China anywhere globally.
 - Azure Germany
 	- ⚠️ Azure Germany is available to eligible customers and partners globally doing business in the EU/EFTA. Not to anyone who wants data residency in Germany.
 - Use Azure Site Recovery for service recovery in the event of site outage at on-premises datacenter. 
+### Azure Availability Sets
+- ⚠️ An Azure Availability Sets protects against server rack-level failures.
+### Azure Availability Zones
+- ⚠️ An Azure Availability Zone protects against datacenter-level failures. 
+- By utilising availability zones, the service will remain available if a single Azure datacenter fails.
 ---
 ### Service Previews
 - Standard lifecycle for Azure services released by Microsoft:
@@ -50,7 +52,7 @@ Hosting databases for customer-facing web applications in Azure MySQL Database i
 - All free Azure services have a minimum SLA of 99.9% (three 9's).
 ---
 ### Resources
-- Use resource locks (read-only) to prevent additional resources from being created/deleted in an Azure resource group (including administrators).
+- Use resource locks (read-only) to prevent (additional) resources from being created/deleted in an Azure resource group (including administrators).
 ### Resource Groups
 - There are no additional costs when using additional resource groups.
 - Resources do not inherit the taks assigned to the parent resource group.
@@ -112,7 +114,7 @@ Hosting databases for customer-facing web applications in Azure MySQL Database i
 ### Serverless computing
 #### Azure Functions
 - Execute code
-- Use Azure Functions to automate a task using a script with minimum cost and maintenance effort.
+- Automate a task using a script with minimum cost and maintenance effort.
 #### Azure Logic Apps
 - Execute (business) workflows based on triggers. 
 - Automate business processes in a low-code environment with a visual interface.
