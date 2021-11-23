@@ -223,21 +223,21 @@
 - Azure VMs in different virtual networks can not communicate by default.
 #### Azure Firewall
 - Securely limit inbound traffic and protect VMs from unwanted inbound requests. 
-#### Azure Traffic Manager vs Azure Load Balancer
+#### Azure Traffic Manager vs Azure Load Balancer (NON-HTTPs)
 - Azure Traffic Manager is been designed to distribute traffic globally (multiregional environments). 
 - Azure Load Balancer can only route traffic inside an Azure region, as it only works with Virtual Machines in the same region.
-#### Azure Traffic Manager
+#### Azure Traffic Manager (NON-HTTPs)
 - Non-HTTP(s) load balancing option with minimal latency globally. 
+#### Azure Front Door (HTTPs)
+- Optimise global routing of web traffic and optimise end-user performance and reliability through quick global failover.
+#### Azure Application Gateway (HTTPs)
+- Load balancing HTTPS traffic in a single Azure region. 
 #### Application Security Group (ASG)
 - ⚠️ Restrict communication for current and future resources with a minimum of administrative effort.
 #### Network Security Group (NSG)
 - ⚠️ Add a security rule to the Network Security Group (NSG) to allow inbound traffic and provide access to an application over the internet via HTTP/S.
 - Do not use for:
 	- Restricting communication for current and future resources (Application Security Group (ASG)).
-#### Azure Front Door
-- Optimise global routing of web traffic and optimise end-user performance and reliability through quick global failover.
-#### Azure Application Gateway
-- Load balancing HTTPS traffic in a single Azure region. 
 ---
 ### Automation
 #### Azure Resource Manager (ARM) templates
@@ -317,7 +317,7 @@
 #### Azure Databricks
 - ⚠️ Host big data service, which can serve as data source for machine learning algorithms. 
 #### Azure Language Understanding (LUIS)
-- ⚠️ Develop an AI app that accepts requests through chat, applies NlP and can be hosted on Azure.
+- ⚠️ Develop an AI app that accepts requests through chat, applies NLP and can be hosted on Azure.
 ---
 ### IoT
 #### Azure IoT Edge
