@@ -304,7 +304,7 @@
 	- Correlation of events from multiple Azure resources in a central repository (Azure Log Analytics).
 	- Relay messages from a variety of sources (Azure services) to an application (Azure Event Grid).
 	- Aggregate events from a large number of resources hosted in Azure for correlation, alerting and reporting (Azure Monitor).
-### Azure Site Recovery
+#### Azure Site Recovery
 - Use Azure Site Recovery for service recovery in the event of site outage at on-premises datacenter. 
 ---
 ### Data Science
