@@ -39,6 +39,7 @@
 - __Resource__ - object used to manage services, saved as JSON definition
 - __Resource Groups__ - grouping of resources
 - __Resource Manager__ - management layer for all resources and resource groups, unified language
+- __Management Groups__ - designed to apply standards across deployments in multiple Azure subscriptions.
 
 ### Core Products in Azure
 
@@ -56,9 +57,11 @@
     - Enable communication of resources with eachother, internet and on-prem
     - Scoped to a single region
     - __VNet__ peering allows cross-region communication
-- Azure __Load Balancer__ - event traffic distribution for TCP/UDP traffic
-- __Application Gateway__ - HTTP(s) traffic distribution
-- __VPN Gateway__ - specific type of virtual network gateway for on-premises to Azure traffic over the public internet.
+- Azure __Traffic Manager__ - designed to distribute TCP/UDP traffic globally (multiregional environments)
+- Azure __Load Balancer__ - event traffic distribution for TCP/UDP traffic (in a single Azure region)
+- Azure __Front Door__ - optimise global routing of HTTP(s) traffic (multiregional environments)
+- Azure __Application Gateway__ - HTTP(s) traffic distribution (in a single Azure region)
+- Azure __VPN Gateway__ - specific type of virtual network gateway for on-premises to Azure traffic over the public internet.
 
 #### Storage
 - Azure __Blob Storage__ - storage of files of any kind
@@ -77,8 +80,9 @@
 ### Solutions in Azure
 
 #### IoT
-- Azure __IoT Hub__ - managed service for bi-directional communication
 - Azure __IoT Central__ - SaaS application for management of IoT devices
+- Azure __IoT Hub__ - managed service for bi-directional communication
+- Azure __IoT Edge__ - analyze data locally on IoT devices, speed event response and reduce data sent to the cloud (extension of IoT Hub)
 - Azure __Sphere__ - secure end-2-end IoT Solutions
 
 #### Big Data
@@ -90,6 +94,8 @@
 - Azure __Machine Learning__ - cloud-based platform for creating, managing and publishing machine learning models
     - Machine Learning __Workspace__ - top level resource
     - Machine Learning __Studio__ - drag-and-drop web portal
+- Azure __Cognitive Service__ - designed for apps that can interact with users using spoken and written language
+- Azure __Language Understanding__ (LUIS) - develop an AI app that accepts requests through chat, applies NLP and can be hosted on Azure
 
 #### Serverless
 - Azure __Functions__ - serverless coding platform (PaaS/FaaS)
@@ -100,6 +106,11 @@
 - Azure __DevOps__ - collection of services for building solutions using DevOps practices
 - Azure __DevTest Labs__ - service for creation of sandbox environments for developers/testers (PaaS)
 
+#### Monitoring
+- Azure __Monitor__ - end-to-end logging solution, the tool to get telemetry from your Azure resources or on-premise environments
+- Azure __Application Insights__ - monitor customer-facing web apps for performance anomalies (feature of Azure Monitor)
+- Azure __Log Analytics__ - query log data collected by Azure Monitor Logs
+- Azure __Time Series Insights__ - analyse time series data in Azure with Azure Time Series Insights (e.g. performance anomalies on IoT devices)
 #### Management Tools on Azure
 - Azure __Portal__ - self-service web portal
 - Azure __PowerShell__ - PowerShell module designed for automation
@@ -122,6 +133,8 @@
 - Azure __Active Directory__ (AD) - identity and Access Management service in Azure
     - __Identities__ - users, groups, allocations
     - __Access management__ - subscriptions, resource groups, roles, role assignments, authentication and authorization settings, etc.
+    - Azure AD __Identity Protection__ - risk based policies to protect Azure identities from external threats (e.g. logging in from anonymous IP, etc.)
+    - Azure AD __Conditional Access__ - add policies to allow access only from trusted and compliant devices
 
 ### Security tools and features of Azure
 - Azure __Security Center__ - centralized and unified infrastructure and platform security management service.
@@ -130,7 +143,9 @@
         - __Free__ - Azure Defender OFF, continuous assessments, security score, and actionable security recommendations.
         - __Paid__ - Azure Defender ON, hybrid security, threat protection alerts, vulnerability scanning, just in time (JIT) VM access, etc.
 - Azure __Key Vault__ - managed service for securing sensitive information (PaaS)
-
+- Azure __Defender for Cloud Apps__ - designed to discover Shadow IT (non-sanctioned apps)
+- Azure __Defender for Identity__ - designed to protect on-premises identities from external threats
+- Azure __Information Protection (AIP)__ - cloud-based solution that enables organisations to discover, classify, and protect documents and emails by applying labels to content
 ### Governance features of Azure
 - __Role__ - "what can be done?"
 - __Security Principal__ - "who can do it?"
@@ -141,7 +156,8 @@
 - Azure __Policy__ - designed to help with resource governance, security, compliance, cost management, etc. 
 - Azure __Policy Initiative__ - a group of policy definitions
 - Policies focus on resource properties, whereas RBAC focuses on user actions. 
-- Azure __Blueprints__ - centralized storage for organizationally approved design patterns, a package of various Azure components (artifacts), such as resource groups, ARM templates, policy assignments and role assignments. 
+- Azure __Blueprints__ - centralized storage for organizationally approved design patterns, a package of various Azure components (artifacts), such as resource groups, ARM templates, policy assignments and role assignments
+- Azure __Automation__ - automate and centrally manage various processes both in Azure and on-premises.
 
 ### Privacy and compliance resources in Azure
 
@@ -154,8 +170,9 @@
 
 #### Azure Sovereign Regions
 - Provide Azure services in markets with very strict regulatory requirements
-- __Azure Government__ design for the US government
-- __Azure China__ designed for the Chinese market
+- Azure __Government__ -designed for the US government
+- Azure __China__ - designed for the Chinese market, available to legal entities in China
+- Azure __Germany__ - available to eligible customers and partners globally doing business in the EU/EFTA
 ## 4. Azure Cost Management and SLA's
 ### Planning and managing costs in Azure
 - Azure __Reservations__ - purchase Azure services for 1-3 years in advance with significant discounts
@@ -163,18 +180,19 @@
 - __Hybrid Use Benefit__ - use existing licenses in the cloud
 - Azure __Pricing Calculator__ - estimate the cost of Azure services
 - Azure __Total Cost of Ownership (TCO) calculator__ - estimate and compare the cost of running workloads on-premise versus in Azure
-- Azure __Cost Management__ - centralized service for reporting usage and billing of your existing Azure environment, with self-service cost exploration capabilities
+- Azure __Cost Management__ - centralized service to analyze past cloud usage and expenses, and predict future expenses
 - __Minimizing costs__ in Azure
     - Use Azure Pricing Calculator to choose the low-cost region
     - Utilise Hybrid Use Benefit and Azure Reservations
     - Utilise Azure Cost Management for monitoring, budgets, alerts and recommendations
     - Understand service lifecycle and automate environments
     - Use autoscaling features to your advantage
-    - Utilise Azure Monitor to find and scale down underutilized resources
+    - Utilise __Azure Monitor__ to find and scale down underutilized resources
     - Use tags and policies for effective governance
 
 ### __SLA's__
-- Free services usually don't have an SLA
+- Guarantees about uptime and connectivity, varies by service.
+- Free services usually don't have an SLA. All free Azure services have a minimum uptime of 99.9% (three 9's).
 - Minimal SLA in Azure is 99.9%
 - Adding __dependency__ (Azure website with SQL DB backend) - `Availability(s1) * Availability(s2)`
 - Adding __redundancy__ (two redundanct web apps behind a load balancer) - `(100 - (Unavailability(web1) * Unavailability(web2)))`
