@@ -1,4 +1,91 @@
 # AZ-900 - Practice
+## Index
+### Contepts
+- Private, Public & Hybrid cloud
+- Capital Expense (CapEx) & Operational Expense (OpEx)
+- SaaS, PaaS & IaaS
+- Private & Public Preview
+- SLA's
+- Azure Regions, Availability Zones & Availability Sets
+- Management Groups & Security Groups
+- Subscriptions, Resource Groups & Resources
+- Azure Tags
+- Authentication & authorization
+- 
+### Tools
+- Pricing:
+	- Azure Price Calculator
+	- Azure TCO Calculator
+	- Azure Pricing Calculator
+	- Azure Reservations
+	- Azure Cost Management
+- Best practices & recommendations:
+	- Azure Advisor
+	- Microsoft Trust Center
+- Compute
+	- Azure Container Instances
+	- Azure VMs
+- Serverless computing
+	- Azure Functions
+	- Azure Logic Apps
+- Security
+	- Azure Sentinel
+	- Azure Security Center
+	- Azure Key Vault
+	- Defender for Cloud Apps
+	- Defender for Identity
+	- Azure DDoS
+	- Azure Information Protection (AIP)
+	- Azure AD 
+		- Azure AD Identity Protection
+		- Azure AD Conditional Access.
+- Networking
+	- Point-to-site connectivity with Virtual Network
+	- Site-to-site connectivity with Virtual Network 
+	- Private site-to-site connectivity with ExpressRoute
+	- Azure Virtual Networks
+	- Azure Firewall
+	- Azure Traffic Manager 
+	- Azure Load Balancer
+	- Application Security Group (ASG)
+	- Network Security Group (NSG)
+	- Azure Front Door
+	- Azure Application Gateway
+- Automation
+	- Azure Resource Manager (ARM) templates
+	- Azure DevOps
+	- Azure Automation
+	- Azure Blueprints
+- Policies
+	- Azure Policy
+	- Azure Access Policies
+	- Azure Initiatives
+- Monitoring
+	- Azure Monitor
+	- Azure Application Insights
+	- Azure Time Series Insights
+	- Azure Log Analytics
+- Storage
+	- Disk Storage
+	- Azure File(s)
+	- Azure Blob Storage
+	- Azure Cosmos DB
+	- Azure SQL Database
+	- Azure Event Grid
+	- Azure Event Hub
+	- Azure Site Recovery
+- Data Science
+	- Azure Machine Learning Studio
+	- Azure HDInsight
+	- Azure Cognitive Service
+	- Azure Databricks
+	- Azure Language Understanding (LUIS)
+- IoT
+	- Azure IoT Edge
+	- Azure IoT Central
+	- Azure IoT Hub
+
+
 ## Concepts
 ---
 ### Cloud advantages
@@ -6,47 +93,41 @@
 - A financial analysis of migration of on-premises files to Azure Storage showed that storing data in Azure would be less expensive than hosting it on-premises. The report also showed unit cost in Azure would decrease even further as the data archive grows. This is an example of economies of scale.
 ---
 ### Cloud models & expenditures
-- Company X is planning to move to Azure, but currently hosts business applications in a shared virtualisation infrastructure on-premises, utilising Hyper-V. This is an example of Private Cloud.
-- ⚠️ You need to provide additional capacity than what is currently available on-prem. The solution must minimise capital expense (CapEx) and operational expense (OpEx). Then, a hybrid cloud is recommended.
-- Azure SQL Database and an on-premise SQL cluster represent an Operational expense and a Capital expense, respectively.
+- Example of Private Cloud: hosting business applications in a shared virtualisation infrastructure on-premises, utilising Hyper-V.
+- ⚠️ Hybrid Cloud is recommended when you need aditional capacity on-prem, minimise capital expense (CapEx) and minimise operational expense (OpEx). 
+- Operational expense: Azure SQL Database
+- Capital expense: On-premise SQL cluster
 - Migrating existing on-premises SQL VMs to Azure, implements the Operational Expenditure model.
 ---
 ### SaaS, PaaS, IaaS
-- Examples of SaaS: Office 365,
+- Examples of SaaS: Office 365
 - Examples of PaaS: Event Grid, Azure App Service, Azure (My)SQL Database, Cosmos DB
 - Examples of IaaS: Azure VMs
 - With SaaS you are responsible for configuring the solution features. Not for maintaining infra, not for deploying updates, not for availability and scalability. 
 ---
 ### Azure Region
-- Each Azure Region features datacenters deployed within a latency-defined perimeter. They're connected through a dedicated regional low-latency network. 
+- Datacenters in Azure Region are connected through a dedicated regional low-latency network. 
 - Azure China 
 	- ⚠️ Available to legal entities in China. Not any organisation globally, doing business in China. 
 	- Workloads deployed on Azure China can be accessed anywhere globally.
 - Azure Germany
 	- ⚠️ Available to eligible customers and partners globally doing business in the EU/EFTA. Not to anyone who wants data residency in Germany.
-- Use Azure Site Recovery for service recovery in the event of site outage at on-premises datacenter. 
 ### Azure Availability Sets
-- ⚠️ Azure Availability Sets protects against server rack-level failures.
+- ⚠️ Protect against server rack-level failures.
 ### Azure Availability Zones
-- ⚠️ Azure Availability Zones protects against datacenter-level failures. 
+- ⚠️ Protect against datacenter-level failures. 
 - By utilising availability zones, the service will remain available if a single Azure datacenter fails.
 ---
 ### Service Previews
-- Standard lifecycle for Azure services released by Microsoft:
-	1. Private Preview
-	2. Public Preview
-	3. General Availability
-- Azure services in Public Preview 
-	- are available to all costumers.
-	- are NOT available in all Azure regions.
-	- do NOT include an SLA
+- Standard lifecycle for Azure services released by Microsoft: Private Preview -> Public Preview -> General Availability.
+- Azure services in Public Preview are available to all costumers, are NOT available in all Azure regions and do NOT include an SLA.
 ---
 ### SLA's
 - Guarantees about uptime and connectivity, varies by service.
 - All free Azure services have a minimum SLA of 99.9% (three 9's).
 ---
 ### Resources
-- Use resource locks (read-only) to prevent (additional) resources from being created/deleted in an Azure resource group (including administrators).
+- Use resource locks (read-only) to prevent resources from being created/deleted (including administrators).
 ### Resource Groups
 - There are no additional costs when using additional resource groups.
 - Resources do not inherit the taks assigned to the parent resource group.
@@ -72,16 +153,9 @@
 ---
 ## Tools
 ---
-### Compliance & Regulations
-#### Microsoft Trust Center
-- Determine if the Azure platform meets particular regulatory standard.
----
 ### Pricing / Cost Management
 #### Azure Price Calculator vs Azure TCO Calculator
 - The Azure Calculator is meant to get pricing when you know exactly what you need in Azure, or want to look up pricing for the resources you know about. TCO Calculator is meant when you want to estimate how much it would cost to move your resources from on-premises to Azure, by inputting what you are currently using, and letting it convert that into Azure equivalence.
-#### Azure Pricing Calculator
-- Prior to migration, costs can be estimated using the Azure Pricing Calculator.
-- Calculate estimated cost before deploying. 
 #### Azure Reservations
 - Pricing option (commitment of X years) to reduce hosting costs if planning to run services for an extended period (years) and make predicting future spending easier.
 #### Azure Cost Management
@@ -107,14 +181,12 @@
 - Azure doesn't charge for the VM core hours while it is Stopped (Deallocated). However, you continue to accrue charges for the Azure storage needed for the VM’s OS disk and any attached data disks. 
 ### Serverless computing
 #### Azure Functions
-- Execute code
-- Automate a task using a script with minimum cost and maintenance effort.
+- Execute code: automate a task using a script with minimum cost and maintenance effort.
 #### Azure Logic Apps
-- Execute (business) workflows based on triggers. 
-- Automate business processes in a low-code environment with a visual interface.
+- Execute (business) workflows based on triggers: automate business processes in a low-code environment with a visual interface.
 ---
 ### Security
-#### Azure Security Center vs Azure Sentinel
+#### Azure Security Center & Azure Sentinel
 - Azure Security Center is a tool for security posture management and threat protection, it protects workloads running in Azure, on-premises, and in other clouds. Azure Security Center is one of many sources of threat information fed into Azure Sentinel to create a view of the entire enterprise.
 #### Azure Security Center
 - ⚠️ Identify deviations from Microsoft security best practices in your Azure cloud infrastructure.
@@ -131,24 +203,26 @@
 #### Azure Information Protection (AIP)
 - Cloud-based solution that enables organisations to discover, classify, and protect documents and emails by applying labels to content.
 #### Azure AD Identity Protection
-- Set up risk-based policies in Azure AD.
-- ⚠️ Set up policies for logging in from anonymous IP or unusual location. Less suitable: Azure AD Conditional Access.
 - Protect your Azure identities from external threats. 
+- ⚠️ Set up risk-based policies in Azure AD, such as logging in from anonymous IP or unusual location. Less suitable: Azure AD Conditional Access.
 ---
 ### Networking
 #### Connecting on-premise <=> Azure
-1. Point-to-site connectivity with Virtual Network (manually connect)
-2. Site-to-site connectivity with Virtual Network (keep communication up all the time) 
-3. Private site-to-site connectivity with ExpressRoute (private connections)
-- In a Site-to-Site VPN, the Azure Virtual Network Gateway is the cross-premises gateway that connects your Azure Virtual Network with your on-premises VPN appliances. 
-- ⚠️ Use Site-to-Site VPN to connect on-premises datacenter to Azure with minimal expense during low-scale pilot deployment.
-- Use Azure ExpressRoute to connect on-premises application resources, minimise latency and maximise security. 
-#### Azure Firewall
-- Deploy an Azure Firewall to securely limit inbound traffic and protect VMs from unwanted inbound requests. 
-#### Virtual Networks
+1. Point-to-site connectivity with Virtual Network
+	- Manually connect
+2. Site-to-site connectivity with Virtual Network 
+	- Keep communication up all the time
+	- The Azure Virtual Network Gateway is the cross-premises gateway that connects your Azure Virtual Network with your on-premises VPN appliances. 
+	- ⚠️ Use Site-to-Site VPN to connect on-premises datacenter to Azure with minimal expense during low-scale pilot deployment.
+3. Private site-to-site connectivity with ExpressRoute
+	- Private connections
+	- Connect on-premises application resources, minimise latency and maximise security. 
+#### Azure Virtual Networks
 - Azure VMs in different subnets in the same virtual network can communicate by default.
 - ⚠️ Azure routes traffic between all subnets within a virtual network, by default. Create a user defined route to override Azure's default routing. 
 - Azure VMs in different virtual networks can not communicate by default.
+#### Azure Firewall
+- Securely limit inbound traffic and protect VMs from unwanted inbound requests. 
 #### Azure Traffic Manager vs Azure Load Balancer
 - Azure Traffic Manager is been designed to distribute traffic globally (multiregional environments). 
 - Azure Load Balancer can only route traffic inside an Azure region, as it only works with Virtual Machines in the same region.
@@ -180,15 +254,14 @@
 - ⚠️ Enable delivery of templates for repeatable deployment and configuration of new subscriptions and environments.
 ---
 ### Policies
-#### Azure Policiy vs Azure Initiative
-- Azure Policy is a service in Azure which allows you create polices which enforce and control the properties of a resource. When these policies are used they enforce different rules and effects over your resources, so those resources stay compliant with your IT governance standards.
-- An Azure initiative is a collection of Azure policy definitions that are grouped together towards a specific goal or purpose in mind. Azure initiatives simplify management of your policies by grouping a set of policies together as one single item.
 #### Azure Policy
--  Identify and enforce standards across new and existing Azure deployments.
+- Azure Policy is a service in Azure which allows you create polices which enforce and control the properties of a resource. When these policies are used they enforce different rules and effects over your resources, so those resources stay compliant with your IT governance standards.
+- Identify and enforce standards across new and existing Azure deployments.
 - Make sure that resources are only created in approved regions. 
 #### Azure Access Policies
 - Apply authorization standards across deployments in multiple Azure subscriptions. 
 #### Azure Initiatives
+- An Azure initiative is a collection of Azure policy definitions that are grouped together towards a specific goal or purpose in mind. Azure initiatives simplify management of your policies by grouping a set of policies together as one single item.
 - Define a group of Azure policies that define and enforce corporate standards. 
 - Do not use for:
 	- Delivery of templates for repeatable deployment and configuration of new subscriptions and environments (Azure Blueprints)
@@ -231,6 +304,8 @@
 	- Correlation of events from multiple Azure resources in a central repository (Azure Log Analytics).
 	- Relay messages from a variety of sources (Azure services) to an application (Azure Event Grid).
 	- Aggregate events from a large number of resources hosted in Azure for correlation, alerting and reporting (Azure Monitor).
+### Azure Site Recovery
+- Use Azure Site Recovery for service recovery in the event of site outage at on-premises datacenter. 
 ---
 ### Data Science
 #### Azure Machine Learning Studio
