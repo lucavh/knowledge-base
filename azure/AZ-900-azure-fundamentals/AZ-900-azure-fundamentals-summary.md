@@ -1,6 +1,6 @@
 # AZ-900 - Summary
 
-## 1. Cloud Concepts (20-25%)
+## 1. Cloud Concepts
 
 ### Benefits of cloud computing (SHE-D-AF)
 - __Scalability__
@@ -29,7 +29,7 @@
 
 ### Cloud Deployment Model
 - __Public__, __Private__ and __Hybrid__ Cloud
-## 2. Azure Services (15-20%)
+## 2. Azure Services
 
 ### Architectural Components in Azure
 - __Region__ - 1+ data centers connected with low-latency network. Some services are available only in certain regions.
@@ -107,7 +107,7 @@
 - Azure __Cloud Shell__ - cloud-based scripting environment
 - Azure __Advisor__ - personalized consultant service, designed to provide recommendations and best practices for cost, security, reliability, performance and operational excellence.
 
-## 3. Security, Privacy, Compliance, and Trust (25-35%)
+## 3. Security, Privacy, Compliance, and Trust
 
 ### Securing network connectivity in Azure
 - __Network Security Groups__ (NSG) - designed to filter traffic to (inbound) and from (outbound) Azure resources located in Azure Virtual Network
@@ -156,8 +156,7 @@
 - Provide Azure services in markets with very strict regulatory requirements
 - __Azure Government__ design for the US government
 - __Azure China__ designed for the Chinese market
-## 4. Azure Cost Management and SLA's (10-15%)
-...
+## 4. Azure Cost Management and SLA's
 ### Planning and managing costs in Azure
 - Azure __Reservations__ - purchase Azure services for 1-3 years in advance with significant discounts
 - Azure __Spot VMs__ - purchase unused VM capacity for significant discount
@@ -173,7 +172,9 @@
     - Use autoscaling features to your advantage
     - Utilise Azure Monitor to find and scale down underutilized resources
     - Use tags and policies for effective governance
-- __SLA's__
-    - Free services usually don't have an SLA
-    - Adding __dependency__ (Azure website with SQL DB backend) - `Availability(s1) * Availability(s2)`
-    - Adding __redundancy__ (two redundanct web apps behind a load balancer) - `(100 - (Unavailability(web1) * Unavailability(web2)))`
+
+### __SLA's__
+- Free services usually don't have an SLA
+- Minimal SLA in Azure is 99.9%
+- Adding __dependency__ (Azure website with SQL DB backend) - `Availability(s1) * Availability(s2)`
+- Adding __redundancy__ (two redundanct web apps behind a load balancer) - `(100 - (Unavailability(web1) * Unavailability(web2)))`
