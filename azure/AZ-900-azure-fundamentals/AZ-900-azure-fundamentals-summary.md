@@ -70,9 +70,9 @@
 - Azure __SQL Database__ - reliable relational database based on SQL server
 - Azure __Database for MySQL__ - Azure SQL version for MySQL database engine
 - Azure __Database for PostgreSQL__ - Azure SQL version for PostfgreSQL database enginge
-- Azure __SQL Managed Instance__ - Fully fledged SQL Server managed by cloud provider
-- Azure __SQL on VM__ - Fully fledged SQL server on IaaS
-- Azure __SQL DW (Synapse)__ - Massively Parallel Processing (MPP) version of SQL server
+- Azure __SQL Managed Instance__ - fully fledged SQL Server managed by cloud provider
+- Azure __SQL on VM__ - fully fledged SQL server on IaaS
+- Azure __SQL DW (Synapse)__ - massively Parallel Processing (MPP) version of SQL server
 
 ### Solutions in Azure
 
