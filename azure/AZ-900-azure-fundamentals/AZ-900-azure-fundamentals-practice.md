@@ -1,10 +1,5 @@
 # AZ-900 - Practice
-
 ## Concepts
----
-### Azure Portal
-- Use https://portal.azure.com to access the Azure Portal.
-- Use Azure Marketplace to find an offering to quickly deploy a WordPress website.
 ---
 ### Cloud advantages
 - Paying only for the capacity when needed, is an example of elasticity.
@@ -17,24 +12,23 @@
 - Migrating existing on-premises SQL VMs to Azure, implements the Operational Expenditure model.
 ---
 ### SaaS, PaaS, IaaS
-- Office 365, Azure VMs and Event Grid represent, SaaS, IaaS and Paas, respectively.
+- Examples of SaaS: Office 365,
+- Examples of PaaS: Event Grid, Azure App Service, Azure (My)SQL Database, Cosmos DB
+- Examples of IaaS: Azure VMs
 - With SaaS you are responsible for configuring the solution features. Not for maintaining infra, not for deploying updates, not for availability and scalability. 
-- Azure App Service, Azure SQL Database, and Cosmos DB are examples of PaaS. 
-- Hosting databases for customer-facing web applications in Azure MySQL Database is an example of PaaS.
-- Azure VMs are IaaS.
 ---
 ### Azure Region
 - Each Azure Region features datacenters deployed within a latency-defined perimeter. They're connected through a dedicated regional low-latency network. 
 - Azure China 
-	- ⚠️ Azure China is available to legal entities in China. Not any organisation globally, doing business in China. 
-	- Can workloads deployed on Azure China be accessed anywhere globally? Yes, you can access your workloads deployed on Azure China anywhere globally.
+	- ⚠️ Available to legal entities in China. Not any organisation globally, doing business in China. 
+	- Workloads deployed on Azure China can be accessed anywhere globally.
 - Azure Germany
-	- ⚠️ Azure Germany is available to eligible customers and partners globally doing business in the EU/EFTA. Not to anyone who wants data residency in Germany.
+	- ⚠️ Available to eligible customers and partners globally doing business in the EU/EFTA. Not to anyone who wants data residency in Germany.
 - Use Azure Site Recovery for service recovery in the event of site outage at on-premises datacenter. 
 ### Azure Availability Sets
-- ⚠️ An Azure Availability Sets protects against server rack-level failures.
+- ⚠️ Azure Availability Sets protects against server rack-level failures.
 ### Azure Availability Zones
-- ⚠️ An Azure Availability Zone protects against datacenter-level failures. 
+- ⚠️ Azure Availability Zones protects against datacenter-level failures. 
 - By utilising availability zones, the service will remain available if a single Azure datacenter fails.
 ---
 ### Service Previews
