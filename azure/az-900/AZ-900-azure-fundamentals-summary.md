@@ -50,6 +50,7 @@
 - Azure __Kubernetes Service__ - highly scalable and customizable container hosting platform (PaaS)
 - Azure __App Service__ - designed as enterprise grade web application service
 - Azure __Functions__ - micro/nano-services for executing scripts (PaaS/FaaS)
+- Azure __Virtual Desktop__: remote desktop service
 #### Networking
 - Connect cloud and on-premises
 - Azure __Virtual Network__ - logically isolated networking components
@@ -96,7 +97,7 @@
     - Machine Learning __Studio__ - drag-and-drop web portal
 - Azure __Cognitive Service__ - designed for apps that can interact with users using spoken and written language
 - Azure __Language Understanding__ (LUIS) - develop an AI app that accepts requests through chat, applies NLP and can be hosted on Azure
-
+- Azure __Bot Service__ - Comunniative AI (chatbots)
 #### Serverless
 - Azure __Functions__ - serverless coding platform (PaaS/FaaS)
 - Azure __Logic Apps__ - serverless enterprise integration service (PaaS)
@@ -117,7 +118,7 @@
 - Azure __CLI__ - command line interface for Azure
 - Azure __Cloud Shell__ - cloud-based scripting environment
 - Azure __Advisor__ - personalized consultant service, designed to provide recommendations and best practices for cost, security, reliability, performance and operational excellence.
-
+- Azure __Service Health__ - alerts about outages & planned maintenance
 ## 3. Security, Privacy, Compliance, and Trust
 
 ### Securing network connectivity in Azure
@@ -125,7 +126,7 @@
 - __Applocation Security Groups__ (ASG) - feature that allows grouping of virtual machines located in Azure Virtual Network
 - Azure __Firewall__ - managed, cloud-based firewall service (PaaS)
 - Azure __DDoS Protection__ - designed to detect malicious traffic and block it and prevent additional costs for auto-scaling environments.
-
+- __Defende in depth__ - layering of defensive mechanism (data > app > compute > network > perimiter > identity & access > physcical security)
 ### Azure Identity services
 - __Authentication__ -  process of assertion of identity
 - __Authorization__ - process of ensuring that ony authenticated identities get access to the resources for which they have been granted access
