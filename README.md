@@ -8,4 +8,5 @@ This repository contains a collection of notes and useful links I gathered durin
 - [Terminal](./cheatsheets/terminal.md)
 
 ## Other
-- [Virality Marketing](virality-marketing/virality-marketing.md)
+- [Virality Marketing](./virality-marketing/virality-marketing.md)
+- [Azure Certification](./azure)
