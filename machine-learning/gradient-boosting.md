@@ -1,7 +1,7 @@
 # Gradient Boosting Machines (GBM)
 - Group of tree-based learning models.
 - Also known as Gradient Boosting Decision Trees or Gradient Boosting Regression Trees.
-
+- [Probabilistic Gradient Boosting Machines (PBGM)](https://pgbm.readthedocs.io/en/latest/index.html)
 ## Recap
 - [Recap on decision trees and Gini impurity](https://www.youtube.com/watch?v=7VeUPuFGJHk&ab_channel=StatQuestwithJoshStarmer)
 - [Recap on Random Forests](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&ab_channel=StatQuestwithJoshStarmer)
@@ -80,5 +80,5 @@ Gain - gamma =
 - [Example with feature importance](https://sefiks.com/2018/10/13/a-gentle-introduction-to-lightgbm-for-applied-machine-learning/)
 
 ## Probabilistic Prediction
-- PGBM ([link](https://github.com/elephaint/pgbm))
+- [PGBM](https://github.com/elephaint/pgbm)
 - [NGBoost (Natural Gradient Boosting for Probabilistic Prediction)](https://stanfordmlgroup.github.io/projects/ngboost/)
