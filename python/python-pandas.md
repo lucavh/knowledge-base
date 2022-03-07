@@ -1,6 +1,7 @@
 # Python - Pandas
 
 ## Unpacking
+
 ```python
 my_column_name = "year"
 
@@ -44,6 +45,7 @@ def filter_years(df, start_year="2004", end_year="2014"):
 ```
 
 ## Lambda's & string functions
+
 ```python
 # as an alternative for
 df.rename(columns = lambda column: lower(column))

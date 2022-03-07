@@ -1,18 +1,20 @@
 # Python
 
 ## Links
+
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 - [Python logging basics](https://www.loggly.com/ultimate-guide/python-logging-basics/)
 
 ## Formatted strings
+
 ```python
 print(f"{richestDuck} has a net worth of ${netWorth}.")
 >>> Scrooge McDuck has a net worth of $52348493767.5.
 ```
 
-## Type hinting 
-You must list all your required arguments (those WITHOUT default values) before your 
-optional arguments (those WITH default values). 
+## Type hinting
+
+You must list all your required arguments (those WITHOUT default values) before your optional arguments (those WITH default values). 
 
 ```python
 def grapplingHook(direction: float, angle: float, battleCry: str = "") -> None:
@@ -35,6 +37,7 @@ with open('some_file', 'w') as opened_file:
 ```
 
 ## Decorators (time_function)
+
 ```python
 import time
 from functools import wraps
