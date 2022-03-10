@@ -2,6 +2,8 @@
 
 ## Overview
 
+https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/
+
 | Learning path | Module | Duration | Status |
 | ------------- | ------ | -------- | ------ |
 | Create machine learning models | Explore and analyze data with Python | 47m | TODO |
