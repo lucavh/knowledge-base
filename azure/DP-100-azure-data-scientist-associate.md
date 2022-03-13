@@ -1,4 +1,4 @@
-# DP-100 - Summary
+# DP-100 - Azure Data Scientist Associate
 
 ## Overview
 
