@@ -60,11 +60,25 @@ In practice, `SelectFromModel` is most often used in combination a _penalized_ m
 - **Indicator from threshold** An indicator variable (0 or 1) based on a threshold on a column, e.g. eligible to vote/work based on age.
 - **Interaction of variables** The sum, difference, product or quotient of two features. E.g. `profit` as result of the difference between income and expenses.
 
-## Models
+## Learning algorithms
 
-### Notation
+### Anatomy of a learning algorithm
 
-Typical ML model notation: `f(X,w) = y`, where `X` is a metrix with all the features and `y` is a vector with the target variable.
+Each learning algorithm consists of three parts:
+
+1. a **loss function**, also called **objective** or **objective function**
+2. an **optimization criterion** based on the loss function (e.g. a **cost function** - minimizing the loss function)
+3. an **optimization routine** leveraging training data to find a solution to the optimization criterion (such as **gradient descent**)
+
+### Notation & terminology
+
+Typical ML model notation: $f(X,w) = y$, where $X$ is a metrix with all the features and `y` is a vector with the target variable.
+
+As $f_{x}$ is usually unknown, but a sample ($X$) is available, we accept to not find the true values, but the **unbiased estimators**.
+
+### Derivate and gradient
+
+**Gradient** is the generalization of **derivative** for functions that take several inputs (or one input in the form of a vector). A gradient of a function is a vector of **partial derivatives**. Partial derivatives are determined by focusing on one of the function's inputs and by considering all other inputs as constant values (notation: $\frac{\partial f}{\partial x}$).
 
 ### Hyperparameters & parameters
 
@@ -72,7 +86,23 @@ Typical ML model notation: `f(X,w) = y`, where `X` is a metrix with all the feat
 
 ### Linear regression
 
-- Intercept problem: when fitting a linear model, you might want to not fit the intercept (in scikit-learn: `fit_intercept=False`). Additionally you might want to add an offset to the prediction which is the mean of the intercept value (in scikit-learn: `model.predict + offset`)
+- **Squared error loss** is commonly used as loss function, minimization of this objective is also known as **cost function** or **empirical risk**.
+- **Intercept problem**: when fitting a linear model, you might want to not fit the intercept (in scikit-learn: `fit_intercept=False`). Additionally you might want to add an offset to the prediction which is the mean of the intercept value (in scikit-learn: `model.predict + offset`)
+
+### Logistic regression
+
+- Utilizes a **standard logistic function** (also known as **sigmoid function**) whose codomain is $(0,1)$.
+- Optimization criterion: maximization of the **likelihood**
+
+### Decision tree learning
+
+- **Pruning**: a bottom-up technique against overfitting. Pruning consists of going back through the tee once it's been created and removing branchs that don't contibute significantly enhough to the error reduction by replacing them with leaf notes.
+
+### Support Vector Machines (SVM)
+
+- Finding the **decision boundary** (or hyperplane) with the largest **margin**
+- **Hinge loss**: a penalty function for balancing the tradeoff between classifying the training data well (minimizing emperical risk) and classifying future examples well.
+- **Kernel trick**: function to implicitly transform the original space into a higher dimension space during the cost function optimization.
 
 ## Model evaluation
 
