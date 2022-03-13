@@ -14,7 +14,7 @@ print(f"{richestDuck} has a net worth of ${netWorth}.")
 
 ## Type hinting
 
-You must list all your required arguments (those WITHOUT default values) before your optional arguments (those WITH default values). 
+You must list all your required arguments (those WITHOUT default values) before your optional arguments (those WITH default values).
 
 ```python
 def grapplingHook(direction: float, angle: float, battleCry: str = "") -> None:

@@ -15,7 +15,7 @@ df.assign(**{my_column_name:2021})
 
 ## Stateless vs statefull
 
-Stateless programming is often preferred. 
+Stateless programming is often preferred.
 
 ```python
 # statefull (df is modified)

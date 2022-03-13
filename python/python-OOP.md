@@ -16,25 +16,22 @@ deck = Deck()
 print(deck.ranks)
 ```
 
-### Instance variables
+## Instance variables
 
-Instance variables (member variables) should be declared inside 
-`__init__(self)` first. We don't declare them outside of the constructor.
+Instance variables (member variables) should be declared inside `__init__(self)` first. We don't declare them outside of the constructor.
 
 ```python
 def __init__(self):
     pass
 ```
 
-Underscore before variable name: precede a member variable or a method 
-name with an underscore (`_`) to tell developers they shouldn't mess with it.
+Underscore before variable name: precede a member variable or a method name with an underscore (`_`) to tell developers they shouldn't mess with it.
 
 ## Types of methods
 
 ### Class methods
-Class methods must take `cls` as their first argument, and have the decorator 
-`@classmethod` on the line just above the function definition. They can access 
-class variables, but not instance variables.
+
+Class methods must take `cls` as their first argument, and have the decorator  `@classmethod` on the line just above the function definition. They can access class variables, but not instance variables.
 
 ```python
 @classmethod
@@ -44,10 +41,7 @@ def make_sound(cls):
 
 ### Static methods
 
-Static methods are similar to class methods, except they don't take `cls` as 
-their first argument, and are preceded by the decorator `@staticmethod`. 
-They cannot access any class or instance variables or functions. They don't
-even know they're part of a class.
+Static methods are similar to class methods, except they don't take `cls` as their first argument, and are preceded by the decorator `@staticmethod`.  They cannot access any class or instance variables or functions. They don't even know they're part of a class.
 
 ```python
 @staticmethod

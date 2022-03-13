@@ -2,7 +2,7 @@
 
 ## Overview
 
-https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/
+<https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/>
 
 | Learning path | Module | Duration | Status |
 | ------------- | ------ | -------- | ------ |
