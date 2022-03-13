@@ -30,7 +30,7 @@ Whether or not a machine learning model requires scaling the features depends on
   - Produces one column with boolean value per category, e.g. `1`
   - In general one-hot encoding is the encoding strategy used when the downstream models are linear models.
   - One-hot encoding categorical variables with high cardinality can cause computational inefficiency in tree-based models. Because of this, it is not recommended to use one-hot encoding in such cases even if the original categories do not have a given order.
-  - Advantage: value is either 1 or 0, thus distances between all categories are equal. 
+  - Advantage: value is either 1 or 0, thus distances between all categories are equal.
   - Disadvantage: this approach might blow up your feature space if you have many categories. Possible solution is to only use the top X categories and make the rest "Other".
 - **Target encoding**:
   - Alternative for one-hot encoding
@@ -46,18 +46,18 @@ Exclude features if:
 
 Automatic feature selection methods:
 
-- **Statistical testing** where little contributing features are removed (see [SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html#sklearn.feature_selection.SelectKBest)). 
+- **Statistical testing** where little contributing features are removed (see [SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html#sklearn.feature_selection.SelectKBest)).
 - **Model-based selection** where a(n often penalized) model is used to the determine and eliminate the least contributing features (see [SelectFromModel](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html#sklearn.feature_selection.SelectFromModel)).
 
-In practice, `SelectFromModel` is most often used in combination a _penalized_ model. By adding a special component to the cost function, complex models are penalized. `Lasso` is most used for regression problems and `LinearSVC(penalty="l1")` for classification problems (linear SVM with Lasso-like penalty term). 
+In practice, `SelectFromModel` is most often used in combination a _penalized_ model. By adding a special component to the cost function, complex models are penalized. `Lasso` is most used for regression problems and `LinearSVC(penalty="l1")` for classification problems (linear SVM with Lasso-like penalty term).
 
 ### Feature engineering
 
-- **Date and time features** Creating features from the dates available, e.g. is a holidays or day of the week. 
-- **Group values** Grouping various numeric elements to a categorical variable, e.g. the months December (12), January (1) and February (2) to the season Winter. 
+- **Date and time features** Creating features from the dates available, e.g. is a holidays or day of the week.
+- **Group values** Grouping various numeric elements to a categorical variable, e.g. the months December (12), January (1) and February (2) to the season Winter.
 - **Grouping sparse classes** If you have a feature with an individual low sample count, you might group various values together under some other category. For example: if we had a column `bike_type` it would make sense to have stand-alone values such as `race`, `road` or `grandma`, whereas you might want to group values lik `penny farthing`, `unicycle` and `tricycle` together under a single `other` category since they are rarely rented.
 - **Group from threshold** A new grouped variable for other variables, e.g. `warm` and `cold` based on the temperature.
-- **Indicator from threshold** An indicator variable (0 or 1) based on a threshold on a column, e.g. eligible to vote/work based on age. 
+- **Indicator from threshold** An indicator variable (0 or 1) based on a threshold on a column, e.g. eligible to vote/work based on age.
 - **Interaction of variables** The sum, difference, product or quotient of two features. E.g. `profit` as result of the difference between income and expenses.
 
 ## Models
@@ -68,7 +68,7 @@ Typical ML model notation: `f(X,w) = y`, where `X` is a metrix with all the feat
 
 ### Hyperparameters & parameters
 
-**Hyperparameters** are external parameters that can be tweaked to optimize the cost function (e.g. number of hidden layers), **parameters** are internal to the model and determined during model fit (e.g. weights). 
+**Hyperparameters** are external parameters that can be tweaked to optimize the cost function (e.g. number of hidden layers), **parameters** are internal to the model and determined during model fit (e.g. weights).
 
 ### Linear regression
 
@@ -115,5 +115,4 @@ Adjusted R-Squared penalizes for high number of features.
 
 ### Overfitting
 
-Look at the evaluation metrics (e.g. MAE) on the train and test set. If the performance on the train set is much higher compared to the performance on the test set, you might be overfitting. You want the differences in performance to be minimal. You could apply __bootstrapping__ to determine statistical significance.
-
+Look at the evaluation metrics (e.g. MAE) on the train and test set. If the performance on the train set is much higher compared to the performance on the test set, you might be overfitting. You want the differences in performance to be minimal. You could apply **bootstrapping** to determine statistical significance.
