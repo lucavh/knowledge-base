@@ -43,7 +43,7 @@ A machine learning engineer typically works closely together with a data analyst
 
 ### Machine Learning Project Life Cycle
 
-![Machine Learning Project Lifecycle](../images/machine-learning-project-lifecycle.png)
+![Machine Learning Project Lifecycle](../_images/machine-learning-project-lifecycle.png)
 
 Some considerations:
 

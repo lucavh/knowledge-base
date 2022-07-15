@@ -13,7 +13,7 @@ The downside of k-means is that
 - it requires the number of clusters to be predefined.
 - clusters must be circular shaped, k-means has no way of accounting for differently shaped clusters, such as oblong or elliptical.
 
-![Example of K-means](../images/kmeans.gif)
+![Example of K-means](../_images/kmeans.gif)
 
 ### Hopkins statistic
 
@@ -24,14 +24,14 @@ Determine _clusterability_ using the [_Hopkins statistic_](https://en.wikipedia.
 - __Elbow method__: determine the elbow point of the graph, in the example it's clearly k=4. Unfortunately, the elbow is not always as sharp, i.e. the data is not as clearly clustered.
 - __Silhouette method__: in more ambiguous cases, this metric measures how similar a point is to its own cluster compared to other clusters. The range of the Silhouette value is between -1 and +1 and the higher it is, the better.
 
-![Elbow method](../images/elbow-method.png)
-![Silhouette method](../images/silhouette-method.png)
+![Elbow method](../_images/elbow-method.png)
+![Silhouette method](../_images/silhouette-method.png)
 
 ## Gaussian Mixture Models (GMM)
 
 Instead of a distanced-based model (k-means), GMM uses a distribution-based model. Gaussian Mixture Models are probabilistic models and use a soft clustering approach for distributing the points in different clusters.
 
-![Example of GMM](../images/gmm.gif)
+![Example of GMM](../_images/gmm.gif)
 
 ## DBSCAN
 
@@ -40,7 +40,7 @@ DBSCAN looks for areas of high density and assigns clusters to them, whereas poi
 - _eps_: maximum distance between two points to consider them as neighbors. If this distance is too large we might end up with all the points in one huge cluster, however, if it is too small we might not even form a single cluster.
 - _min_points_: minimum number of points to form a cluster. If we set a low value for this parameters we might end up with a lot of really small clusters, however, a large value can stop the algorithm from creating any clusters at all.
 
-![Example of DBSCAN](../images/DBSCAN_search.gif)
+![Example of DBSCAN](../_images/DBSCAN_search.gif)
 
 ## Hierarchical Clustering
 
@@ -51,4 +51,4 @@ HDBSCAN is a hierarchical, density-based clustering algorithm. There are, howeve
 - __Agglomerative__: a bottom-up approach where each observation starts in its own cluster and pairs of clusters are merged as one moves up the hierarchy
 - __Divisive__: a top-down approach where all observations start in one cluster and splits are performed recursively as one moves down the hierarchy.
 
-![Example of agglomerative hierarchical clustering](../images/hierarchical.gif)
+![Example of agglomerative hierarchical clustering](../_images/hierarchical.gif)

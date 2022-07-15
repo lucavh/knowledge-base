@@ -99,7 +99,7 @@ In case of an interesting situation, ask:
 
 A simple and powerful tool for visualizing all aread of your life at once to see where you need most improvement. 
 
-<img src="../images/wheel-of-life.png" style="max-width:400px"/>
+<img src="../_images/wheel-of-life.png" style="max-width:400px"/>
 
 ### Diagnostics
 
