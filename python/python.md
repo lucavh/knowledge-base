@@ -63,3 +63,19 @@ def my_cooler_algorithm(alpha, beta=1):
     time.sleep(5 * alpha / beta)
 
 ```
+
+## Precise type hinting with Enums
+
+```python
+from dataclasses import dataclass
+from enum import enum
+
+class OrgRole(Enum):
+    CEO = "ceo"
+    PRESIDENT = "president"
+    STAFF = "staff"
+
+@dataclass Employee:
+    name:str
+    role: OrgRole
+```

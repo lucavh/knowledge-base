@@ -1,42 +1,20 @@
 # DP-100 - Azure Data Scientist Associate
 
-## Overview
+## Exam notes
 
-<https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/>
+- Study guide for the exam: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VUjA
+- Exam sandbox: https://aka.ms/examdemo
+- Skills measured:
+  - Design and prepare a machine learning solution
+  - Explore data and train models
+  - Prepare a model for deployment
+  - Deploy and retrain a model
 
-| Learning path | Module | Duration | Status |
-| ------------- | ------ | -------- | ------ |
-| Create machine learning models | Explore and analyze data with Python | 47m | TODO |
-| Create machine learning models | Train and evaluate regression models | 52m | TODO |
-| Create machine learning models | Train and evaluate classification models | 47m | TODO |
-| Create machine learning models | Train and evaluate clustering models | 38m | TODO |
-| Create machine learning models | Train and evaluate deep learning models | 2h 14m | TODO |
-| Microsoft Azure AI Fundamentals: Explore visual tools for machine learning | Use automated machine learning in Azure Machine Learning | 45m | TODO |
-| Microsoft Azure AI Fundamentals: Explore visual tools for machine learning | Create a Regression Model with Azure Machine Learning designer | 55m | TODO |
-| Microsoft Azure AI Fundamentals: Explore visual tools for machine learning | Create a Classification Model with Azure Machine Learning designer | 1h | TODO |
-| Microsoft Azure AI Fundamentals: Explore visual tools for machine learning | Create a Clustering Model with Azure Machine Learning designer | 49m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Introduction to Azure Machine Learning SDK | 1h | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Train a machine learning model with Azure Machine Learning | 40m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Work with Data in Azure Machine Learing | 45m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Work with Compute in Azure Machine Learning | 45m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Orchestrate machine learning with pipelines | 55m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Deploy real-time machine learning services with Azure Machine Learning | 40m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Deploy batch inference pipelines with Azure Machine Learning | 44m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Tune hyperparameters with Azure Machine Learning | 46m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Automate machine learning model selection with Azure Machine Learning | 25m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Explore differential privacy | 38m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Explain machine learning models with Azure Machine Learning | 47m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Detect and mitigate unfairness in models with Azure Machine Learning | 45m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Monitor models with Azure Machine Learning | 39m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Monitor data drift with Azure Machine Learning | 42m | TODO |
-| Build and operate machine learning solutions with Azure Machine Learning | Explore security concepts in Azure Machine Learning | 36m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Getting started with Databricks | 21m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Work with data in Azure Databricks | 21m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Prepare data for machine learning with Azure Databricks | 27m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Train a mchine learning model with Azure Databricks | 21m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Use MLflow to track experiments in Azure Databricks | 21m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Manage machine learning models in Azure Databricks | 21m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Train Azure Databricks experiments in Azure Machine Learning | 24m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Deploy Azure Databricks in Azure Machine Learning | 24m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Tune hyperparameters with Azure Databricks | 45m | TODO |
-| Build and operate machine learning solutions with Azure Databicks | Distributed deep learning with Horovod and Azure Databricks | 35m | TODO |
+## Study resources
+
+- Mircosoft Learning: https://learn.microsoft.com/en-us/users/lucaverhees-4218/collections/63krbkoymw8x21
+- Udemy course: https://ns.udemy.com/course/machine-learning-using-azureml/learn/lecture/23208486?learning_path_id=3030078#overview
+
+## Current progress
+
+https://learn.microsoft.com/en-us/training/modules/explore-analyze-data-with-python/7-exercise-real-world-data
