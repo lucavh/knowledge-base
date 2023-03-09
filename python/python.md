@@ -1,5 +1,22 @@
 # Python
 
+## Cohesion & coupling
+
+- Cohesion & coupling are software quality metrics
+- Cohesion is the degree to which elements of a certain class or function belong together.
+  - Weak cohesion: function does a lot of different things that do not belong together
+  - Strong cohesion: clear responsibility, only one task to execute
+- Coupling is a measure of how dependent two parts of your code are on eachother.
+  - High coupling: function that accesses data that is deep in the structure of an object. Requires a lot of adjustments.
+  - Low coupling: minimal dependency and little changes required.
+  - Solution for high coupling: only provide the data that is needed in the funciton, not the entire object. Or move function to object since it is so tightly related to the data in the object. 
+
+## Dependency inversion
+
+- Dependency inversion is a principe to write code that you can reaure more easily
+- It's part of a group of design prinicpes that is called the SOLID principles. D stands for dependency ivnerison. 
+- You want to apply an abstraction mechanism and types in your code. Python does not support this by default, but you can make use of the module called ABC (Abstract Base Class) and type hinting. 
+
 ## Links
 
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
