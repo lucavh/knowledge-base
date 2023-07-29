@@ -1,9 +1,3 @@
-# Mentoring
-
-Sources:
-
-- Udemy, Mentor for Impact - Start Mentoring, Harald Lepisk
-
 ## Setting the scope for mentoring
 
 1. What do you want to achieve?
@@ -11,7 +5,7 @@ Sources:
 3. What are your expectations?
 4. Frequency and format of meetings
 
-See also [this worksheet](./goal_setting_worksheet.pdf).
+See also [this worksheet](goal_setting_worksheet.pdf).
 
 ## Structuring mentoring conversations in general
 
@@ -74,7 +68,7 @@ Define __what__ needs to be done and by __when__. Is there enough passion and wi
 
 ## Tools and exercises for becoming a better mentor
 
-### Experience mindmap - map yourlife lessons
+### Experience mindmap - map your life lessons
 
 - What were the insights I gained in those experiences?
 - Things I have learned in life -> project -> lessons
@@ -97,9 +91,7 @@ In case of an interesting situation, ask:
 
 ### Wheel of life
 
-A simple and powerful tool for visualizing all aread of your life at once to see where you need most improvement. 
-
-<img src="../_images/wheel-of-life.png" style="max-width:400px"/>
+[[wheel-of-life]]
 
 ### Diagnostics
 
@@ -111,7 +103,6 @@ A simple and powerful tool for visualizing all aread of your life at once to see
 ### Looking back from the future
 
 Imagine X years from now:
-
 - What have you achieved? 
 - What has changed in your life?
 - What would you want to see as a result?
@@ -119,29 +110,33 @@ Imagine X years from now:
 
 ### Powerful questions
 
-- Provoking
+#### Provoking
   - Why do you want to __achieve__ this goal?
   - What are you trying to __prove to yourself__?
   - How does this decision match up with __who you are__?
   - What are you __waiting__ for?
   - What are you trying to __avoid__?
-- Defining
+
+#### Defining
   - What do you really __value__ in life?
   - What is __freedom__ for you?
   - What is __success__ for you?
   - What is __happiness__ for you?
-- Seeing opportunities
+
+#### Seeing opportunities
   - In which ways can you turn this situation into a __success story__?
   - If I was in your shoes, what __advice__ would you give me?
   - What __other angles__ can you think of?
   - How can you make it __work__?
-- Taking action
+
+#### Taking action
   - What is the number one thing __holding you back__?
   - What do you need to __let go of__?
   - What is the __smallest step__ you could take to work towards your goal?
   - If you were given an __extra hour__ today, what would you do with it?
   - What are you __waiting__ for?
-- Reflecting
+
+#### Reflecting
   - What __happened__? (facts only)
   - What went __well__?
   - What would you do __differently__, if you could do it again?
@@ -151,3 +146,7 @@ Imagine X years from now:
   - What are the __positive outcomes__ of this situation?
   - How do you choose to __interpretate__ this situation?
   - What has been your __major learning__, insight or discovery so far?
+
+Reference: Lepisk, H. (2021). Mentoring for Impact [Online Course](https://www.udemy.com/course/mentoring-for-impact/). Udemy.
+
+[[personal-development]]

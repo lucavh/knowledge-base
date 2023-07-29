@@ -1,4 +1,3 @@
-
 # The Math of Virality Marketing
 
 _Viral marketing_ is a business strategy that uses existing social networks to promote a product. The basis of viral marketing is in the spread of information by word-of-mouth (i.e. word-of-Mouth marketing), but modern technology has allowed the viral effect to include many Internet-based platforms as well.
@@ -91,3 +90,5 @@ Without these elements factored in, the basic model will show exponential growth
 * [Lessons learnt viral marketing](https://www.forentrepreneurs.com/lessons-learnt-viral-marketing/)
 * [A Virality Formula](https://kevinlawler.com/viral)
 * [Network Saturation, Viral Decay, and the Peaks and Valleys of Growth](http://viralhero.com/viral-marketing-projections/network-saturation/)
+
+[[statistics]]

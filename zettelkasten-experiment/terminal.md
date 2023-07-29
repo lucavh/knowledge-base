@@ -1,5 +1,3 @@
-# Terminal
-
 ## Environment variables
 
 Set variables in `.env` file or set them through terminal:
@@ -54,3 +52,5 @@ List and remove virtualenvs from Jupter:
 jupyter kernelspec list
 Jupiter kernelspec uninstall venv
 ```
+
+[[software-development]]
