@@ -11,4 +11,4 @@ GRASP (General Responsibility Assignment Software Patterns) is a collection of s
 
 Applying GRASP helps in achieving a more maintainable, adaptable, and scalable design in object-oriented systems.
 
-[[software-quality]]
+[[software-design]]

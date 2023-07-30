@@ -1,19 +1,3 @@
-# Clustering
-
-The three families of clustering algorithms are:
-
-1. __Partional__: k-means and Gaussian Mixture Models (GMM), where k-means is hard assigned version of GMMs and GMMs are able to provide probabilities
-2. __Density-based__: DBSCAN and HDBSCAN.
-3. __Hierarchical__: either agglomerative or divisive. These may correspond to meaningful taxonomies and a dendrogram can help find the most meaningful number of clusters.
-
-## K-means
-
-The downside of k-means is that
-
-- it requires the number of clusters to be predefined.
-- clusters must be circular shaped, k-means has no way of accounting for differently shaped clusters, such as oblong or elliptical.
-
-![Example of K-means](kmeans.gif)
 
 ### Hopkins statistic
 

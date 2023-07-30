@@ -1,4 +1,4 @@
-Cohesion & coupling are software quality metrics.
+Cohesion & coupling are [[software-design]] principles.
 
 ## Low coupling
 
@@ -13,4 +13,6 @@ Cohesion & coupling are software quality metrics.
 - An example of high cohesion is a function with a clear responsibility, only one task to execute.
 - Recommendation: make classes/modules either data focused (representing data structure) or behavior focues (keep data associated realtively simple)
 
-[[grasp-design-patterns]]
+Low coupling and high cohesion belong to the set of [[grasp-design-patterns]].
+
+[[software-design]]
