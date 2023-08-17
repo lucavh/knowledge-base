@@ -2,7 +2,7 @@
 
 This repository serves as a collection of notes and useful links I've gathered during my learning journey. 
 
-Inspired by [this great YouTube video]([Zettelkasten Method Video](https://youtu.be/L9SLlxaEEXY)), I've started to experiment with the Zettelkasten Method and I'm structuring my knowledge base using this powerful note-taking approach.
+Inspired by [this great YouTube video]((https://youtu.be/L9SLlxaEEXY), I've started to experiment with the Zettelkasten Method and I'm structuring my knowledge base using this powerful note-taking approach.
 
 The [Zettelkasten Method](https://zettelkasten.de/posts/overview/), developed by Niklas Luhmann, involves creating individual notes (Zettels) for each concept or idea. Each note focuses on a single idea and is given a unique identifier. The method emphasises linking notes to build a network of interconnected knowledge, fostering associative thinking and inspiring new insights.
 
