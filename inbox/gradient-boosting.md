@@ -1,8 +1,3 @@
-# Gradient Boosting Machines (GBM)
-
-- Group of tree-based learning models.
-- Also known as Gradient Boosting Decision Trees or Gradient Boosting Regression Trees.
-- [Probabilistic Gradient Boosting Machines (PBGM)](https://pgbm.readthedocs.io/en/latest/index.html)
 
 ## Recap
 
@@ -45,48 +40,3 @@
 1. Start with a leaf that is the initial prediction for every individual, use __log(odds)__ (e.g. 4 times yes, 2 times no, log(odds) that it is yes is `log(4/2) = 0.7`). Then, convert it to a probability with a Logistic Function (`e^log(odds) / (1 + e^log(odds))`).
 2. Build a tree based on the residuals from the first tree (__Pseudo Residual__ = observed value - predicted value, use probability for predicted value).
 3. ...
-
-## XGBoost ([link](https://www.youtube.com/watch?v=OtD8wVaFm6E&ab_channel=StatQuestwithJoshStarmer))
-
-- Stands for Extreme Gradient Boosting
-- When building __XGBoost Trees__ for __Regression__
-- you calculate __Similarity Scores__
-- and __Gain__ to determine how to split the data
-- and prune the tree by calculating the differences between __Gain__ calues and a user defined __Tree Complexity Parameter (gamma)__.
-- Then calculate the __Output Values__ for the remaining leaves.
-- Lambda is a __Regularization Parameter__ and when l>0, it results in more pruning, by schrinking the __Similarity Scores__, and it results in smaller __Output Values__ for the leaves.
-
-```code
-Similarity Score = (sum of resifuals)^2 / (number of residuals + lambda)
-
-Gain = LeftSimilarity + RightSimilarity - RootSimilarity
-
-Gain - gamma =
- |- if positive, then do not prune
- |- if negative, then prune
-
- Output Value = sum of residuals / (number of residuals + lambda)
-```
-
-## LightGBM ([link](https://lightgbm.readthedocs.io/en/latest/Features.html))
-
-- Stands for lightweight gradient boosting machines
-- Developed by Microsoft
-- Provides optimization in speed and memory usage
-  - Pre-sort-based vs histogram-based algorithms: the latter bucket continuous feature values into discrete bins. This speeds up training and reduced memory usage.
-- Optimization in accuracy
-  - Level-wise tree growth vs leaf-wise (best-first) tree growth: the latter will choose the leaf with max delta loss to grow. Leaf-wise algortihms tend to achieve lower loss than level-wise algorithms. However, may cause over-fitting when data is small. Therefore, LightGBM includes max_depth parameter to limit tree depth.
-  - Optimal split for categorical features: one-hot encoding is suboptimal for tree learnings. Particularly for high-cardinality categorical features, a tree built on one-hot features tends to be unbalanced and needs to grow very deep to achieve good accuracy. Grouping categories into subsets, using a sorting technique to find the best split, is more optimal.
-- LightGBM supports the following applications:
-  - regression, the objective function is L2 loss
-  - binary classification, the objective function is logloss
-  - multi classification
-  - cross-entropy, the objective function is logloss and supports training on non-binary labels
-  - LambdaRank, the objective function is LambdaRank with NDCG
-- [Parameters](https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc)
-- [Example with feature importance](https://sefiks.com/2018/10/13/a-gentle-introduction-to-lightgbm-for-applied-machine-learning/)
-
-## Probabilistic Prediction
-
-- [PGBM](https://github.com/elephaint/pgbm)
-- [NGBoost (Natural Gradient Boosting for Probabilistic Prediction)](https://stanfordmlgroup.github.io/projects/ngboost/)

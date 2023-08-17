@@ -1,1 +1,1 @@
-[[machine-learning]]
+[[inbox/machine-learning]]

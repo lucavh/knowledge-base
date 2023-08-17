@@ -31,4 +31,4 @@ References:
 - [Website - Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
 - [Book - How to take smart notes](https://www.soenkeahrens.de/en/takesmartnotes#zettelkasten-en)
 
-[[personal-development]]
+[[information-management]]

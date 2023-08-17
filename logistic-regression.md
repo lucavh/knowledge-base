@@ -1,0 +1,2 @@
+- Utilizes a **standard logistic function** (also known as **sigmoid function**) whose codomain is $(0,1)$.
+- Optimization criterion: maximization of the **likelihood**
