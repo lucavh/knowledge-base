@@ -29,4 +29,4 @@
 - [SHAP](https://shap.readthedocs.io/en/latest/) - explain the output of a machine learning model
 - [tsai](https://timeseriesai.github.io/tsai/) - state-of-the-art deep learning library for time series and sequences.
 
-[[data-science]]
+[[machine-learning]]

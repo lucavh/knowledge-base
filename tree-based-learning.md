@@ -22,4 +22,4 @@ Tree-based learning is a prominent machine learning technique widely used in dat
 
 Tree-based learning has found extensive use in various domains of data science, including finance, healthcare, marketing, and more. By harnessing the power of decision trees and their ensembles, data scientists can develop accurate and interpretable models that excel in predictive tasks involving complex data structures.
 
-[[classification]] [[regression]] [[data-science]]
+[[classification]] [[regression]] [[machine-learning]]

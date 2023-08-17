@@ -42,4 +42,4 @@ if selected_columns:
 - https://docs.streamlit.io/library/cheatsheet
 - https://docs.streamlit.io/
 
-[[python]]
+[[data-visualization]]
