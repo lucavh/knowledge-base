@@ -83,4 +83,4 @@ Throughout the learning process, make sure to supplement your studies with hands
 
 Remember that learning Bayesian Statistics can be a gradual process, and it's okay to revisit certain concepts if needed. Be patient and persistent in your learning journey. Enjoy your exploration of Bayesian Statistics, and best of luck with your studies!
 
-[[statistics]][[machine-learning]]
+[[statistics]] [[machine-learning]]
