@@ -11,6 +11,8 @@ Regularization is a fundamental concept in [[machine-learning]] used to prevent 
 - **L2 Regularization (Ridge)**: Introduces a penalty proportional to the square of the model's coefficients. It discourages large coefficient values, promoting smoother and more stable models.
 - **Elastic Net Regularization**: A combination of L1 and L2 regularization, providing a balance between feature selection (L1) and coefficient shrinkage (L2).
 
+Both L1 and L2 regularization prevent overfitting by shrinking (imposing a penalty) on the coefficients. With L2, you tend to end up with many small weights, while with L1, you tend to end up with larger weights, but more zeros.
+
 ### Regularization in Different Models
 
 - **[[linear-regression]]**: Regularized versions are Ridge Regression (L2 regularization) and Lasso Regression (L1 regularization).

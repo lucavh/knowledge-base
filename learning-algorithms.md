@@ -12,7 +12,4 @@ Typical ML model notation: $f(X,w) = y$, where $X$ is a metrix with all the feat
 
 As $f_{x}$ is usually unknown, but a sample ($X$) is available, we accept to not find the true values, but the **unbiased estimators**.
 
-### Examples
-- [[clustering-algorithms]]
-
-[[inbox/machine-learning]]
+[[machine-learning]]

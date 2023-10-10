@@ -486,3 +486,5 @@ To distribute the training of a deep learning model using HorovodRunner, you sho
 -   Prepare and test single-node code with TensorFlow, Keras, or PyTorch.
 -   Migrate the code to Horovod.
 -   Use `HorovodRunner` to run the code and distribute your work.
+
+[[azure]] [[databricks]] [[azureml]]

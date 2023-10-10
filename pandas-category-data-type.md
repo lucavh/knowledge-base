@@ -4,5 +4,10 @@ Strings are not efficient representations of data. If there are a lot of recurri
 df[column] = df[column].astype("category")
 ```
 
+Alternatively:
+```python
+df["string_column"].cat.codes
+```
+
 [[pandas]]
 [[data-types]]

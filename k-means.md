@@ -1,4 +1,4 @@
-K-Means is a popular unsupervised clustering algorithm used to partition a dataset into 'k' distinct clusters. It works by iteratively assigning data points to the nearest cluster center (centroid) and then updating the centroids based on the mean of the points within each cluster. The algorithm converges when the centroids no longer change significantly.
+K-Means is a popular unsupervised [[clustering-algorithms]] used to partition a dataset into 'k' distinct clusters. It works by iteratively assigning data points to the nearest cluster center (centroid) and then updating the centroids based on the mean of the points within each cluster. The algorithm converges when the centroids no longer change significantly.
 
 The downside of k-means is that
 - it requires the number of clusters to be predefined.
@@ -17,7 +17,5 @@ Suppose we have a dataset of 2D points representing customers based on their spe
 ![Example of K-means](kmeans.gif)
 
 K-Means is an iterative process and may depend on the initial centroids, so it's common to run the algorithm multiple times and choose the best result. The final clustering enables businesses to tailor marketing strategies to different customer segments, maximizing sales and customer satisfaction.
-
-[[clustering-algorithms]]
 
 

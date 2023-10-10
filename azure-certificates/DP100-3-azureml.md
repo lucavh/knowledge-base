@@ -112,3 +112,5 @@ Compute Instances are typically used in a development environment with notebooks
 ## AutoML
 
 AutoML can do: (1) classification, (2) regression, (3) time series forecasting
+
+[[azure]] [[azureml]]

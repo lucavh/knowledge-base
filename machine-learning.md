@@ -13,4 +13,8 @@ Machine learning is a field of artificial intelligence that focuses on developin
 - **Semi-Supervised Learning**: Combines labeled and unlabeled data to improve learning efficiency and model accuracy.
 - **Reinforcement Learning**: Involves training agents to interact with an environment and learn optimal strategies through rewards and penalties.
 
+## Resources
+- [ML cheatsheet glossary](https://ml-cheatsheet.readthedocs.io/en/latest/glossary.html)
+- [Google Machine Learning glossary](https://developers.google.com/machine-learning/glossary)
+
 [[data-science]]

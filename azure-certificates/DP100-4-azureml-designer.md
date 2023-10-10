@@ -29,3 +29,5 @@ def azureml_main(df1 = None, df2 = None):
 	Y = df.iloc[: -1:]
 	return X, Y
 ```
+
+[[azure]] [[azureml]]

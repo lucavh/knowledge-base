@@ -1,4 +1,5 @@
 Benefits of having insights into interpretability: 
+
 - Explain the entire model behavior or individual predictions locally as wel as in Azure
 - Enable interpretability techniques for engineered features
 - Use a visualization dashboard to interact with your model explanations
@@ -14,6 +15,7 @@ Benefits of having insights into interpretability:
 	- Top important features for the entire prediction set
 	- Takes into account entire training or test dataset
 	- Example: Which features are important to get this accuracy?
+
 - Local interpretability:
 	- Top important features for an individual prediction
 	- Takes into accoun just one record of independent features
@@ -31,3 +33,6 @@ Benefits of having insights into interpretability:
 ## Package InterpretML (`azureml-interpret`)
 
 - https://interpret.ml/
+
+[[model-evaluation]]
+[[machine-learning]]

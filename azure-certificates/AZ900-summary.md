@@ -229,3 +229,5 @@
 - Minimal SLA in Azure is 99.9%
 - Adding __dependency__ (Azure website with SQL DB backend) - `Availability(s1) * Availability(s2)`
 - Adding __redundancy__ (two redundanct web apps behind a load balancer) - `(100 - (Unavailability(web1) * Unavailability(web2)))`
+
+[[azure]]

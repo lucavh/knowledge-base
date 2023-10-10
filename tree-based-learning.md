@@ -17,9 +17,20 @@ Tree-based learning is a prominent machine learning technique widely used in dat
 - **Interpretability**: Decision trees provide a transparent representation of decision-making processes, making them valuable for understanding model predictions.
 - **Handling Non-Linearity**: Tree-based models are well-suited for capturing complex nonlinear relationships in data.
 - **Variable Importance**: These models can quantify the importance of features, aiding in feature selection and identifying key predictors.
-- **Ensemble Techniques**: Random forests and gradient boosting improve predictive power by aggregating multiple trees, often outperforming individual decision trees.
+- **[[ensemble-learning]]**: Random forests and gradient boosting improve predictive power by aggregating multiple trees, often outperforming individual decision trees.
 - **Handling Mixed Data**: Tree-based models can handle mixed data types (categorical and numerical) without extensive preprocessing.
+
+### Tree-based [[ensemble-learning]]
+
+| Bagging | Boosting |
+| ------- | -------- |
+| e.g. **boostrap** and **random forest** | e.g. **AdaBoost** and **(hist-)gradient boosting** |
+| fits trees **independently** | fits trees **sequentially** |
+| each **deep** tree **overfits** | each **shallow** tree **underfits** |
+| averaging the tree predictions reduces **overfitting** | sequentially adding trees reduces **underfitting** |
+
+Gradient boosting tends to perform slightly better than bagging and random forest. Furthermore, shallow trees predict faster.
 
 Tree-based learning has found extensive use in various domains of data science, including finance, healthcare, marketing, and more. By harnessing the power of decision trees and their ensembles, data scientists can develop accurate and interpretable models that excel in predictive tasks involving complex data structures.
 
-[[classification]] [[regression]] [[machine-learning]]
+[[classification]] [[regression]] [[learning-algorithms]]

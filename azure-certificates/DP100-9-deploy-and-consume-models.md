@@ -162,3 +162,5 @@ monitor = DataDriftDetector.create_from_datasets(
 	alert_configuration=alert_email
 )
 ```
+
+[[azure]] [[azureml]]
