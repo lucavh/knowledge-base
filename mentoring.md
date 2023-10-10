@@ -5,7 +5,7 @@
 3. What are your expectations?
 4. Frequency and format of meetings
 
-See also [this worksheet](assets/goal_setting_worksheet.pdf).
+See also [this worksheet](goal_setting_worksheet.pdf).
 
 ## Structuring mentoring conversations in general
 
