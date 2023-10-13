@@ -5,3 +5,5 @@ At its highest level, the DSLC consists of four phases: Manage, Develop, Deploy,
 Resources:
 - [Domino Data Lab - Data Science Lifecycle whitepaper (2017)](https://domino.ai/resources/managing-data-science)
 - [Domino Data Lab - Data Science Lifecycle (2021)](https://domino.ai/blog/what-is-the-data-science-lifecycle)
+
+[[data-science]]
