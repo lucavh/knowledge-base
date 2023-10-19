@@ -9,3 +9,5 @@ Resources:
 - [Paper - Correcting for Selection Bias and Missing Response in Regression using Privileged Information (Onno Zoeter)](https://arxiv.org/abs/2303.16800)
 - [[Trends_in_access_and_egress_transportation_in_NL_1695121906.pdf]]
 - Book - Probabilistic Machine Learning: Advanced Topics!
+- [[mle-book-summary]]
+- [[udacity-probabilistic-graphical-models]]

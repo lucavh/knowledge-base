@@ -8,5 +8,3 @@ The point of statistics is to:
 
 Resources:
 - Wheelan, C. (2013). Naked Statistics: Stripping the Dread from the Data. W. W. Norton & Company.
-
-[[data-science]]

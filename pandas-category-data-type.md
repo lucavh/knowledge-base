@@ -10,4 +10,4 @@ df["string_column"].cat.codes
 ```
 
 [[pandas]]
-[[data-types]]
+[[data-preprocessing]]

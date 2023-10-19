@@ -20,6 +20,5 @@ Clustering algorithms are unsupervised machine learning techniques used to group
 
 Clustering algorithms offer powerful tools for understanding the underlying structures in data, facilitating decision-making processes and gaining insights in various domains.
 
-[[data-science]]
 [[statistics]]
 [[learning-algorithms]]

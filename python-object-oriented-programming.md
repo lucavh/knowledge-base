@@ -84,4 +84,3 @@ class USSDiscovery(Starship):
 In this example, `USSDiscovery` is a subclass of a hypothetical `Starship` class. It inherits attributes and methods from `Starship` and adds its own unique attributes like `spore_drive` and `_captain`.
 
 [[python]]
-[[software-development]]

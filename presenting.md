@@ -8,3 +8,5 @@
 - What is it that you couldn’t do before and can do now?
 - Looking forward, what is your next step?
 - Looking back, what would you've done differently?
+
+[[personal-development]]
