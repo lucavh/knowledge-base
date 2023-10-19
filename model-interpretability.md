@@ -2,7 +2,7 @@ Benefits of having insights into interpretability:
 
 - Explain the entire model behavior or individual predictions locally as wel as in Azure
 - Enable interpretability techniques for engineered features
-- Use a visualization dashboard to interact with your model explanations
+- Use a dashboard to interact with your model explanations ([[data-visualization]])
 - Deploy a scoring explainer alongside your model to observe explanations during inferencing
 
 ## Shapley Value

@@ -1,0 +1,2 @@
+- [MLOps.community](https://podcasts.apple.com/us/podcast/mlops-community/id1505372978)
+- [Dataloog podcast](https://dedataloog.nl/)

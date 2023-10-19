@@ -1,20 +1,10 @@
-Bayesian modeling is a powerful approach in statistics and machine learning that employs the principles of Bayesian probability to construct probabilistic models. It enables practitioners to incorporate prior beliefs, update those beliefs with new evidence, and make informed predictions and decisions under uncertainty.
-
-### Foundations of Bayesian Modeling
-
-- **Bayesian Inference**: Bayesian modeling centers on Bayesian inference, a method for updating beliefs using Bayes' theorem. It involves combining prior beliefs (prior probability) with observed data (likelihood) to obtain a posterior probability distribution.
-- **Bayes' Theorem**: Bayes' theorem is the cornerstone of Bayesian modeling. It relates the posterior probability of an event to the prior probability and the likelihood of observing the evidence.
-- **Notation**:
-    - `P(A)`: Prior probability of event A.
-    - `P(A|X)`: Posterior probability of event A given evidence X.
-
+Probabilistic modeling or Bayesian modeling is a powerful approach in statistics and machine learning that employs the principles of Bayesian probability to construct probabilistic models. It enables practitioners to incorporate prior beliefs, update those beliefs with new evidence, and make informed predictions and decisions under uncertainty.
 ### Process of Bayesian Modeling
 
 1. **Specify Prior Beliefs**: Begin by expressing prior beliefs about the parameters or variables of interest. These beliefs can be based on domain knowledge or existing data.
 2. **Construct Likelihood**: Formulate a likelihood function that models the probability of observing the given data under different parameter settings.
 3. **Apply Bayes' Theorem**: Combine the prior beliefs and the likelihood using Bayes' theorem to obtain the posterior distribution.
 4. **Update with Evidence**: As new evidence becomes available, the prior beliefs are updated to the posterior beliefs, reflecting the impact of the evidence.
-
 ### Advantages of Bayesian Modeling
 
 - **Incorporation of Prior Information**: Bayesian modeling allows for the inclusion of prior knowledge or assumptions about the problem, which can enhance model accuracy.
@@ -22,18 +12,7 @@ Bayesian modeling is a powerful approach in statistics and machine learning that
 - **Sequential Learning**: Bayesian modeling supports iterative updating of beliefs as new data is collected, making it suitable for adaptive decision-making.
 - **Model Comparison**: Bayesian modeling facilitates model comparison using techniques like Bayesian model selection and model averaging.
 
-### Applications of Bayesian Modeling
-
-- **Predictive Modeling**: Bayesian modeling is widely used for predictive tasks, such as regression and classification, where uncertainty in predictions is crucial.
-- **Parameter Estimation**: It enables accurate estimation of model parameters, accounting for uncertainty due to limited data.
-- **Bayesian Networks**: Bayesian modeling finds application in constructing Bayesian networks to model complex relationships and dependencies.
-- **Decision Analysis**: Bayesian models aid in decision analysis by providing a principled way to combine prior beliefs and evidence.
-
-Bayesian modeling is a versatile and powerful technique that offers a structured approach to modeling and reasoning under uncertainty. By combining prior knowledge and observed data, it yields more informative and robust results across a spectrum of fields, from statistics and machine learning to engineering and social sciences.
-
 [[probabilistic-programming]] and Bayesian modeling are closely related concepts. While probabilistic programming is a broader paradigm that encompasses different probabilistic modeling techniques, Bayesian modeling stands out as a specific approach that leverages Bayesian probability for constructing and reasoning about models. Probabilistic programming provides a flexible and efficient means to implement Bayesian models, enabling researchers and practitioners to create sophisticated models and perform probabilistic inference with ease.
-
-
 ## Resources
 
 1. **Book - "Probabilistic Programming & Bayesian Methods for Hackers"** This is a free online book written by Cam Davidson-Pilon. It provides a practical and hands-on introduction to Bayesian methods with Python. The book covers a wide range of topics and uses the probabilistic programming language PyMC3. You can find the book here: [Probabilistic Programming & Bayesian Methods for Hackers](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
@@ -49,5 +28,4 @@ Bayesian modeling is a versatile and powerful technique that offers a structured
 6. **GitHub - PyMC3** PyMC3 is a popular probabilistic programming library for Bayesian analysis in Python. The official GitHub repository contains documentation, examples, and tutorials that will help you get started with Bayesian Statistics using PyMC3. Link: [PyMC3 GitHub](https://github.com/pymc-devs/pymc3)
     
 7. **GitHub - ArviZ** ArviZ is a Python library for exploratory analysis of Bayesian models. It works well with PyMC3 and other probabilistic programming libraries. The GitHub repository includes documentation and examples to guide you through the process. Link: [ArviZ GitHub](https://github.com/arviz-devs/arviz)
-
-[[statistics]] [[machine-learning]]
+[[statistics]] [[probabilistic-programming]]

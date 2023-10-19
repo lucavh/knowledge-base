@@ -2,6 +2,16 @@ Streamlit simplifies the process of turning data scripts into shareable web apps
 
 Streamlit is designed to be compatible with various data visualization libraries, including Seaborn ([[streamlit-and-seaborn]]).
 
+## How it works
+
+Streamlit apps are Python scripts that run from top to bottom. Every time a user opens a browser tab pointing to your app, the script is re-executed. As the script executes, Streamlit draws its output live in a browser.
+
+Each Streamlit call on the Python side loads up a React component from the running Streamlit server, which is then rendered onto your web browser. If we go under the hood of a `st.markdown` call:
+
+![Pasted image 20230829160339.png](app://aeca1fcb7ec96b02f7f6828e45f70c4ca747/Users/lucaverhees/Obsidian/lucavh/assets/Pasted%20image%2020230829160339.png?1693317819367)
+
+## Getting started
+
 To get started with Streamlit, follow these steps:
 
 1. **Installation:** Install Streamlit using pip: `pip install streamlit`

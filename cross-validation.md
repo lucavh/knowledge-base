@@ -8,6 +8,7 @@ One approach to overcoming this bias is to nest the hyperparameter optimization 
 
 ![[Pasted image 20231010102731.png]]
 
+![[nested_cross_validation_diagram.png]]
 ([source](https://machinelearningmastery.com/nested-cross-validation-for-machine-learning-with-python/))
 
 ### Choice of cross-validation
