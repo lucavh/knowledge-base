@@ -1,13 +1,12 @@
-Topics:
-- pulp optimization
-
-
 Resources:
-- [Report- State of AI Report 2023](https://www.stateof.ai/)
-- [Article - Bayesian way of thinking about experiments](https://tecunningham.github.io/posts/2023-04-18-experiment-interpretation-extrapolation.html)
-- [Article - Guide to understanding the intuition behind the Dirichlet distribution](https://www.andrewheiss.com/blog/2023/09/18/understanding-dirichlet-beta-intuition)
-- [Paper - Correcting for Selection Bias and Missing Response in Regression using Privileged Information (Onno Zoeter)](https://arxiv.org/abs/2303.16800)
+- 2023-DEC [Harvard Course XAI, spring 2023](https://interpretable-ml-class.github.io/)
+- 2023-DEC [Google's Explainable AI whitepaper](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf)
+- 2023-DEC [What Have Language Models Learned?]https://pair.withgoogle.com/explorables/fill-in-the-blank/
+- 2023-OCT [Report- State of AI Report 2023](https://www.stateof.ai/)
+- 2023-APR [Article - Bayesian way of thinking about experiments](https://tecunningham.github.io/posts/2023-04-18-experiment-interpretation-extrapolation.html)
+- 2023-SEPT [Article - Guide to understanding the intuition behind the Dirichlet distribution](https://www.andrewheiss.com/blog/2023/09/18/understanding-dirichlet-beta-intuition)
 - [[Trends_in_access_and_egress_transportation_in_NL_1695121906.pdf]]
+- [Embeddings: What they are and why they matter](https://simonwillison.net/2023/Oct/23/embeddings)
 - Book - Probabilistic Machine Learning: Advanced Topics!
 - [[mle-book-summary]]
 - [[udacity-probabilistic-graphical-models]]

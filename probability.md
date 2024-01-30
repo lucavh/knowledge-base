@@ -42,6 +42,7 @@ P(D_3 = sunny)               = (0.9 * 0.8 * 0.8) +
                                (0.1 * 0.4 * 0.6) + 
                                (0.1 * 0.6 * 0.8)
 ```
+
 ## Problems with probability
 
 1. Assuming events are ==independent== when they are not, e.g. engine failures of an airplane.

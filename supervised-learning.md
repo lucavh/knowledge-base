@@ -1,0 +1,1 @@
+Involves training algorithms on labeled data, where inputs are paired with correct outputs. Common tasks include regression (predicting a continuous value) and classification (assigning labels to categories).

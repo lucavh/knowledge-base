@@ -8,7 +8,7 @@ Machine learning is a field of artificial intelligence that focuses on developin
 
 ### Types of Machine Learning
 
-- **Supervised Learning**: Involves training algorithms on labeled data, where inputs are paired with correct outputs. Common tasks include regression (predicting a continuous value) and classification (assigning labels to categories).
+- [[supervised-learning]] 
 - **Unsupervised Learning**: Algorithms learn from unlabeled data, discovering patterns and structures within the data. Clustering and dimensionality reduction are examples.
 - **Semi-Supervised Learning**: Combines labeled and unlabeled data to improve learning efficiency and model accuracy.
 - **Reinforcement Learning**: Involves training agents to interact with an environment and learn optimal strategies through rewards and penalties.

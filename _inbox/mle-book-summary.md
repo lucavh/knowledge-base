@@ -91,28 +91,6 @@ One way to make a more educated guess is to __simplify the problem__ and solve a
 
 The progress of machine learning projects is __nonlinear__. The error usually decreases fast in the beginning, but then the progress slows down. Making sure that the client understands the constraints and the risks is important. It can help to log every activity and track the time it took, this is also useful for estimating complexity for similar projects in the future
 
-### Defining the Goal
-
-The goal of a machine learning project is to __build a model that solves some business problem__. In particular, the model can be used within a broader system to automate, alert or prompt, organize, annotate, extract, recommend, classify, quantify, synthesize, answer an explicit question, transform its input, and detect novelty or an anomaly. If you cannot frame the goal of machine learning in one of these forms, likely, machine learning is not the best solution.
-
-A __successful model__
-
-1. respects the input and output specifications and the minimum performance requirement,
-2. benefits the organization and the user, and
-3. is scientifically rigorous.
-
-### Structuring a Machine Learning Team
-
-There are two cultures of structuring a machine learning team, depending on the organization.
-
-One culture says that a machine learning team has to be composed of data analysts who
-collaborate closely with software engineers. In such a culture, a software engineer doesn’t need to have profound expertise in machine learning but has to understand the vocabulary of their fellow data analysts or scientists. 
-
-According to the other culture, all engineers in a machine learning team must have a combination of machine learning and software engineering skills.
-
-Besides having __machine learning and software engineering skills__, a machine learning team may include experts in __data labeling__ and __data engineering experts__. __DevOps engineers__ work closely with __machine learning engineers__ to automate model deployment, loading, monitoring, and occasional or regular model maintenance. Some companies introduced the MLOps role, whose responsibility
-is to deploy machine learning models in production, upgrade those models, and build data processing pipelines involving machine learning models.
-
 ### Why Machine Learning Projects Fail
 
 A machine learning project can fail for many reasons, and mosy actually do. Typical reasons for failure are:

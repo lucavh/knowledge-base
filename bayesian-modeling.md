@@ -1,18 +1,21 @@
 Probabilistic modeling or Bayesian modeling is a powerful approach in statistics and machine learning that employs the principles of Bayesian probability to construct probabilistic models. It enables practitioners to incorporate prior beliefs, update those beliefs with new evidence, and make informed predictions and decisions under uncertainty.
-### Process of Bayesian Modeling
+### Process of Bayesian Modelling
 
 1. **Specify Prior Beliefs**: Begin by expressing prior beliefs about the parameters or variables of interest. These beliefs can be based on domain knowledge or existing data.
 2. **Construct Likelihood**: Formulate a likelihood function that models the probability of observing the given data under different parameter settings.
 3. **Apply Bayes' Theorem**: Combine the prior beliefs and the likelihood using Bayes' theorem to obtain the posterior distribution.
 4. **Update with Evidence**: As new evidence becomes available, the prior beliefs are updated to the posterior beliefs, reflecting the impact of the evidence.
-### Advantages of Bayesian Modeling
+### Advantages of Bayesian Modelling
 
-- **Incorporation of Prior Information**: Bayesian modeling allows for the inclusion of prior knowledge or assumptions about the problem, which can enhance model accuracy.
+- **Incorporation of Prior Information**: Bayesian modelling allows for the inclusion of prior knowledge or assumptions about the problem, which can enhance model accuracy.
 - **Quantification of Uncertainty**: Bayesian models provide not only point estimates but also the entire posterior distribution, allowing for uncertainty quantification.
-- **Sequential Learning**: Bayesian modeling supports iterative updating of beliefs as new data is collected, making it suitable for adaptive decision-making.
-- **Model Comparison**: Bayesian modeling facilitates model comparison using techniques like Bayesian model selection and model averaging.
+- **Sequential Learning**: Bayesian modelling supports iterative updating of beliefs as new data is collected, making it suitable for adaptive decision-making.
+- **Model Comparison**: Bayesian modelling facilitates model comparison using techniques like Bayesian model selection and model averaging.
 
-[[probabilistic-programming]] and Bayesian modeling are closely related concepts. While probabilistic programming is a broader paradigm that encompasses different probabilistic modeling techniques, Bayesian modeling stands out as a specific approach that leverages Bayesian probability for constructing and reasoning about models. Probabilistic programming provides a flexible and efficient means to implement Bayesian models, enabling researchers and practitioners to create sophisticated models and perform probabilistic inference with ease.
+[[probabilistic-programming]] and Bayesian modelling are closely related concepts. While probabilistic programming is a broader paradigm that encompasses different probabilistic modelling techniques, Bayesian modelling stands out as a specific approach that leverages Bayesian probability for constructing and reasoning about models. Probabilistic programming provides a flexible and efficient means to implement Bayesian models, enabling researchers and practitioners to create sophisticated models and perform probabilistic inference with ease.
+### Bayesian Modelling and Explainable AI
+
+In the context of [[xai]], Bayesian Modelling can contribute to model interpretability by providing a principled way to quantify and propagate uncertainty. Bayesian models naturally capture uncertainty through probability distributions, and this uncertainty information can be used to generate more informative and reliable explanations. Bayesian models can also incorporate prior knowledge, which may be useful in situations where domain expertise is available.
 ## Resources
 
 1. **Book - "Probabilistic Programming & Bayesian Methods for Hackers"** This is a free online book written by Cam Davidson-Pilon. It provides a practical and hands-on introduction to Bayesian methods with Python. The book covers a wide range of topics and uses the probabilistic programming language PyMC3. You can find the book here: [Probabilistic Programming & Bayesian Methods for Hackers](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
