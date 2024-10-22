@@ -7,4 +7,4 @@
 -   When choosing ETFs, pay attention to costs and currency.
 -   In addition to the portfolio, have a buffer of 3 months of expenses.
 
-[[financial-independence]]
+[[*financial-independence]]

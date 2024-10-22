@@ -25,4 +25,4 @@ Brugman mentions several life rules that provide a framework for approaching lif
 
 "De meeste mensen deugen" is a call to reevaluate our assumptions about human nature and consider the potential for collective goodness and collaboration. Bregman's work has sparked important discussions about the nature of humanity and how we can shape a more harmonious future.
 
-[[personal-development]]
+[[*personal-development]]

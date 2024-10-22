@@ -21,4 +21,4 @@ Maxwell, J. C. (2018). Winning is an Inside Job: How to Focus on What You Want a
 12.  **Believe** in yourself, your mission and in others.
 13.  **Give** more to others than they expect.
 
-[[personal-development]]
+[[*personal-development]]

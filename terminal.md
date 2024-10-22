@@ -53,4 +53,4 @@ jupyter kernelspec list
 Jupiter kernelspec uninstall venv
 ```
 
-[[software-development]]
+[[*software-development]]

@@ -155,4 +155,4 @@ dbutils.fs.mount(
 7. Make output directories on Blob Storage using dummy blob
 8. Save output files using the DBFS mount to Blob Storage
 
-[[azure]] [[databricks]]
+[[*azure]] [[databricks]]

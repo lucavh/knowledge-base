@@ -1,10 +1,5 @@
 The Bayes' theorem (also known as the Bayes' rule) is a mathematical formula used to determine the conditional probability of events and describes the probability of an event based on prior knowledge of conditions that might be related to the event. 
 
-![[Screenshot 2023-12-19 at 15.48.20.png]]
-![[Screenshot 2023-12-19 at 15.57.23.png]]
-![[Screenshot 2023-12-19 at 15.59.19.png]]
-## Mathematical notation
-
 ![](https://latex.codecogs.com/gif.latex?\begin{align*}P({A}|{B})%20%20=%20\frac{P({B}|{A})P({A})}{P({B})}\end{align*})
 
 - `B` is the evidence, `A` is the variable we care about. 
@@ -13,6 +8,18 @@ The Bayes' theorem (also known as the Bayes' rule) is a mathematical formula use
 - `P(B)` is the marginal likelihood 
         -> [[law-of-total-probabilities]]: `P(B) = ∑_a P(B|A=a) * P(A=a)`
 - `P(A|B)` is the posterior
+
+### Explaining away tric
+Given `A -> B <- C` (conditional dependence):
+
+![](https://latex.codecogs.com/svg.image?&space;P(A|B,C)=\frac{P(B|A,C)P(A|C)}{P(B|C)})
+
+![[Pasted image 20240205120300.png]]
+
+
+![[Screenshot 2023-12-19 at 15.48.20.png]]
+![[Screenshot 2023-12-19 at 15.57.23.png]]
+![[Screenshot 2023-12-19 at 15.59.19.png]]
 
 ## Example
 ```
@@ -71,3 +78,20 @@ Answer is P(C|T1=+, T2=+) = 0.0056
 ```
 
 [[bayesian-modeling]]
+
+
+prior  +    +     P`      P(C|++)
+C   0.01   0.9  0.9   0.0081  0.1698
+!C  0.99   0.2  0.9   0.0396  0.8301
+
+
+P(+|C)  = 0.9 
+P(+|!C) = 0.2
+
+
+P(+) = P(+|C) * P(C) + P(+|!C) * P(!C) = (0.9 * 0.01) + (0.2 * 0.99) = 0.009 + 0.198 = 0.207
+
+P(T2=+|T1=+) = P(T1=+ and T2=+) / P(T1=+)
+
+P(C|+)= 0.043
+

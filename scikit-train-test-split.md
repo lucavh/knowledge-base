@@ -8,5 +8,4 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 )
 ```
 
-[[python]]
 [[data-preprocessing]]

@@ -30,4 +30,4 @@ def azureml_main(df1 = None, df2 = None):
 	return X, Y
 ```
 
-[[azure]] [[azureml]]
+[[*azure]] [[azureml]]

@@ -101,4 +101,4 @@ for run in new_run.get_children():
 	print(run.get_metrics('norm_macro_recall'))
 ```
 
-[[azure]] [[azureml]]
+[[*azure]] [[azureml]]

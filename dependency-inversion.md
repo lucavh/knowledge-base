@@ -6,4 +6,4 @@ In practice, you want to apply an abstraction mechanism and types in your code. 
 
 For example, in an application with a logging feature, the high-level business logic should not directly depend on a specific logging library. Instead, it should rely on an abstract logging interface. The concrete implementation of the logging interface (e.g., writing logs to a file or sending them to a remote server) is decided and injected at runtime, enabling easy configuration and adaptability.
 
-[[software-design]]
+[[*software-design]]

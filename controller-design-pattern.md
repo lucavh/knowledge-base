@@ -4,4 +4,4 @@ For example, in a web application, the controller handles user inputs and commun
 
 The controller design principle belongs to the set of [[grasp-design-patterns]].
 
-[[software-design]]
+[[*software-design]]

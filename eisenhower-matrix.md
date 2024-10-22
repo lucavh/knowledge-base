@@ -14,4 +14,4 @@ The Eisenhower matrix:
 3. The third quadrant is for those tasks you could _delegate_ as they are less important to you than others but still pretty urgent. You should keep track of delegated tasks by e-mail, telephone or within a meeting to check back on their progress later.
 4. This quadrant is to help you sort out things you should not be doing at all. Helps to discover bad habits. 
 
-[[time-management]]
+[[productivity-and-time-management]]

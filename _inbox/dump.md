@@ -1,4 +1,5 @@
 Resources:
+- 2024-APR [Correlation metric](https://towardsdatascience.com/a-new-coefficient-of-correlation-64ae4f260310)
 - 2023-DEC [Harvard Course XAI, spring 2023](https://interpretable-ml-class.github.io/)
 - 2023-DEC [Google's Explainable AI whitepaper](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf)
 - 2023-DEC [What Have Language Models Learned?]https://pair.withgoogle.com/explorables/fill-in-the-blank/
@@ -9,4 +10,4 @@ Resources:
 - [Embeddings: What they are and why they matter](https://simonwillison.net/2023/Oct/23/embeddings)
 - Book - Probabilistic Machine Learning: Advanced Topics!
 - [[mle-book-summary]]
-- [[udacity-probabilistic-graphical-models]]
+- [Forecast Evaluation for Data Scientists: Common Pitfalls and Best Practices](https://ar5iv.labs.arxiv.org/html/2203.10716)

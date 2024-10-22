@@ -24,4 +24,4 @@
 - Format line: `⌘ K ⌘ F`
 - Format document: `⌘ Alt F`
 
-[[software-development]]
+[[*software-development]]

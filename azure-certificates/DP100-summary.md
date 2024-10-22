@@ -487,4 +487,4 @@ To distribute the training of a deep learning model using HorovodRunner, you sho
 -   Migrate the code to Horovod.
 -   Use `HorovodRunner` to run the code and distribute your work.
 
-[[azure]] [[databricks]] [[azureml]]
+[[*azure]] [[databricks]] [[azureml]]

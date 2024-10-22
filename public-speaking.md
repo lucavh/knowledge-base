@@ -1,64 +1,35 @@
+- Draag nooit zichtbare badge van evenement als je aan het spreken bent
+- Laat stiltes vallen, extra sterk na retorische vragen "je kent dat wel"
+- Get to know the audience: ask about composition of target audience.
+- When starting: look your audience in the eye. Pretend like you're pouring them a tea: take your time.
+- If there is no clear starting signal, just stand on the podium and make eye-contact. Stay calm and silent. This will make the audience pay attention to you.
+- Manage energy levels and flow: include (motivational) videos
+- KISS: Keep it Simple and Short
+	- Don't give unnecessary context (e.g. people that couldn't make it to the presentation)
+- Je kunt spelen met je stem: intonatie, toonhoogte, snelheid, etc.
 
-## Preparation
+## Voorbereiding
+- Zie ook: [[kernboodschap-mindmap]]
+## Using space
 
-### Make presentation interactive 
+- Wees niet bang om de ruimte in te namen.
+- Slim gebruik maken van ruimte op het podium helpt voor het publiek (minder hersenkracht) en fungeert als ankerpunten en logische rustmomenten.
+- Verticale as (dichtbij/ver weg van publiek) is de as van de intimiteit
+	- Dichtbij: intiem, zacht, toevertrouwen
+	- Ver weg: overzicht, open
+- Horizontale as (links/rechts van publiek) iss de tijdslijn
+	- Vroeger, nu, later
+	- Probleem, analyse, oplossing
+	- Punt 1, punt 2, punt 3
+	- Dilemma A, dilemma B
+- Keer nooit je rug naar het publiek
+- Zorg dat je de ruimte logisch gebruikt, als je iets uitbeeld dan moet je die plek logisch in de ruimte laten voelen. Stel je doet alsof je een deur opent, dan kun je niet vervolgens daar dwars doorheen lopen.
 
-- Let people guess numbers
-- Ask about composition of target audience. Let people show hands based on a given statement, then ask one or two to share their answer.
-### Content
+## Mijn droom
 
-- Being emotionally connected to your talk makes you a great speaker, you can achieve this by being vulnerable and talk about personal stories
-- Tailor your content to your audience
-- Mention facts and numbers to back story and to make it unexpected
-- The objective of your presentation is where your aiming to go with your talk
-	- Should be simple, direct and active.
-	- Ask yourself why multiple times to get to the core of your objective, for example:
-
-```
-Initial objective: 
-	I would like to inspire my students to go do some public speaking.
-
-Why? 
-	It is the best way to practive but often anxiety will prevent people from 
-	doing it.
-
-Why? 
-	Because anyone suffers from some form of anxiety when doing public speaking.
-
-Why? 
-	When you do something you realise it is never as bad as what your anxiety 
-	tells you.
-
-Final objective: 
-	I would like to help my students overcome their anxiety when looking for 
-	opportunities to do public speaking.
-```
-
-## Execution
-
-- Don't be afraid to take up space
-- Do some stretching before speaking, e.g. neck crawls or shoulder stretch
-- Warm up exercises:
-	- Holding nose and humming
-	- Blow through lips
-	- Pretending to eat an increasingly bigger piece of toffee
-- Tongue twisters:
-	1. Say slowly 3 times "Unique New York, New York Unique"
-	2. Say is faster for 3 times
-### Breath
-
-- By adding interactive parts throughout the presentation you will be able to reset your breath.
-- Normally you use your upper chest breath. But by accessing your diaphragmatic breathing or stomach breath, you'll get access to maximum lung capacity.
-	- Breath warming up excercise:
-		1. In 4 sec, hold 2 sec, out 4 sec
-		2. In 5 sec, hold 2 sec, out 5 sec
-		3. In 6 sec, hold 2 sec, out 6 sec
-		4. In 4 sec, hold 2 sec, out 6 sec, repeat for 10 mins
-	- Energizer:
-		1. Deep breath in
-		2. Quick breath out in "ha"
-
+![[Pasted image 20240611211601.png]]
 References: 
 - Dollar-Smirnova, D. (2021). Public Speaking: Find Your Unique Voice [Online Course](https://www.domestika.org/en/courses/3167-public-speaking-find-your-unique-voice/). Domestika.
+- Schweitzer, R. (2012). Presenteren is een 'feest'.
 
-[[personal-development]]
+[[*personal-development]]

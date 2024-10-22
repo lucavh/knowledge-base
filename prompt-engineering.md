@@ -2,3 +2,9 @@
 - Ask to collaborate, rather than telling what to do. This will encourage it to ask for clarification if it isn’t entirely sure what you want, rather than just guessing and giving you what it thinks you want: “Let’s work together to develop a marketing plan for launching a new product in the next quarter. We need to consider target audience, channels of promotion, and potential challenges. What are your thoughts?”
 
 ![[Pasted image 20240130144158.png]]
+
+https://craftingaiprompts.org/documentation/framework
+
+https://craftingaiprompts.org/documentation/framework
+
+[[gen-ai]]

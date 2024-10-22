@@ -43,3 +43,5 @@ Burnett, B. & Evans, D. (2016). Designing your life.
 	- Is de ene de motor voor de andere? Hoe?
 
 ## Oriëntatie: fijn-voel-dagboek
+
+[[*personal-development]]

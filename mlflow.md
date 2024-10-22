@@ -12,4 +12,3 @@ Instructions for using MLflow:
 By following these steps, you can effectively utilize MLflow to manage, track, and reproduce your machine learning experiments, making the development process more organized and collaborative.
 
 [[model-evaluation]]
-[[python]]

@@ -10,3 +10,9 @@ One of the popular Python libraries for solving linear programming problems is [
 - **Feasible Region:** The set of solutions that satisfy all constraints.
 - **Optimization Solvers:** Algorithms that find the optimal solution by iteratively exploring the feasible region.
 
+TODO: 
+- MILP
+- Knapsack problem
+
+[[data-science]]
+

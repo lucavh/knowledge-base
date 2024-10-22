@@ -163,4 +163,4 @@ monitor = DataDriftDetector.create_from_datasets(
 )
 ```
 
-[[azure]] [[azureml]]
+[[*azure]] [[azureml]]

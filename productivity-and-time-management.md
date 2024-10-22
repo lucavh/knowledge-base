@@ -7,4 +7,4 @@ Tips to improve time management:
 References: 
 - Pastoor, R. (2019). Grip: Het geheim van slim werken. 
 
-[[personal-development]]
+[[*personal-development]]

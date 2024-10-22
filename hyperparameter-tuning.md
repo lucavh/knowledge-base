@@ -1,7 +1,7 @@
 **Hyperparameters** are external parameters that can be tweaked to optimize the cost function (e.g. number of hidden layers), **parameters** are internal to the model and determined during model fit (e.g. weights).
 ## Common Hyperparameters
 
-1. **Learning rate:** determines the step size at which the model parameters are updated during training. It is a critical hyperparameter in gradient-based optimization algorithms like [[stochastic-gradient-descent]] (SGD).
+1. **Learning rate:** determines the step size at which the model parameters are updated during training. It is a critical hyperparameter in gradient-based optimization algorithms like [[*stochastic-gradient-descent]] (SGD).
 2. **[[regularization]] strength (Lambda):** controls the degree of regularization applied to the model. In L1 and L2 regularization, it influences the balance between fitting the training data and preventing overfitting.
 3. **Depth of a Decision Tree:** for [[tree-based-learning]] like decision trees and random forests, the maximum depth of the tree is a crucial hyperparameter. It governs the complexity of the tree and directly impacts its ability to capture intricate patterns.
 4. **Number of Hidden Units:** in [[neural-networks]], the number of hidden units or neurons in each layer is a critical hyperparameter. It determines the capacity of the network to learn complex relationships within the data.

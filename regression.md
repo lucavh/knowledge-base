@@ -20,7 +20,7 @@ The regression algorithm seeks to find the "best fit" for a ==linear relationshi
 ## Common types of regression
 
 - Ordinal Regression: data in rank order categories
-- Poisson Regression: predicting event counts
+- [[poisson-regression]]: predicting event counts (also: [[zero-inflated-poisson-regression]])
 - Fast Forest Quantile Regression: predicting a distribution
 - [[linear-regression]]: fast training, linear model
 - [[bayesian-modeling]] Linear Regression: linear model, small datasets
