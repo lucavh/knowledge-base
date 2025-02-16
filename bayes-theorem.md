@@ -1,4 +1,4 @@
-The Bayes' theorem (also known as the Bayes' rule) is a mathematical formula used to determine the conditional probability of events and describes the probability of an event based on prior knowledge of conditions that might be related to the event. 
+The Bayes' theorem (also known as the Bayes' rule) is a mathematical formula used to determine the conditional [[probability]] of events and describes the [[probability]] of an event based on prior knowledge of conditions that might be related to the event. 
 
 ![](https://latex.codecogs.com/gif.latex?\begin{align*}P({A}|{B})%20%20=%20\frac{P({B}|{A})P({A})}{P({B})}\end{align*})
 

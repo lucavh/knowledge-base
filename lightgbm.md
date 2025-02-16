@@ -12,13 +12,13 @@ LightGBM, short for "Lightweight Gradient Boosting Machines," is a powerful [[gr
 LightGBM is versatile and supports a range of applications:
 - [[regression]]: Uses L2 loss as the objective function.
 - Binary [[classification]]: Utilizes logloss as the objective function.
-- Multi-Class [[classification]]: Enables classification into multiple classes.
+- Multi-Class [[classification]]: Enables [[classification]] into multiple classes.
 - Cross-Entropy: Supports training on non-binary labels using the logloss objective function.
 - LambdaRank: Implements LambdaRank with Normalized Discounted Cumulative Gain (NDCG) as the objective function.
 
 ### Parameters Tuning
 
-Tuning LightGBM's parameters is crucial for optimizing its performance. Parameters can be adjusted to influence tree growth, boosting process, and regularization. A comprehensive guide to these parameters can be found [here](https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc).
+Tuning LightGBM's parameters is crucial for optimizing its performance. Parameters can be adjusted to influence tree growth, boosting process, and [[regularization]]. A comprehensive guide to these parameters can be found [here](https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc).
 
 ### Example with Feature Importance
 

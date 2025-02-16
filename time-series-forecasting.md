@@ -4,7 +4,7 @@
 
 - Strategy:
     1. Find very simple baseline, e.g. sales of last week, 7d moving average, 7d exponential moving average.
-    2. Apply a baseline non-linear mode, such as LightGBM on a limited set of features.
+    2. Apply a baseline non-linear mode, such as [[LightGBM]] on a limited set of features.
     3. Obtain improvements by adding additional features and optimise model with hyperparameter tuning, etc.
 - Train one model per X days ahead forecast. E.g if you want to predict the coming 14 days, train 14 different models.
 

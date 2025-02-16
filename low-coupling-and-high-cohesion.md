@@ -1,4 +1,4 @@
-Cohesion & coupling are [[*software-design]] principles.
+Cohesion & coupling are [[software-design]] principles.
 
 ## Low coupling
 
@@ -15,4 +15,4 @@ Cohesion & coupling are [[*software-design]] principles.
 
 Low coupling and high cohesion belong to the set of [[grasp-design-patterns]].
 
-[[*software-design]]
+[[software-design]]

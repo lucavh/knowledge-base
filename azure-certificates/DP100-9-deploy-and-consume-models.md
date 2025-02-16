@@ -44,8 +44,8 @@ service.wait_for_deployment(show_output = True)
 
 ### Consume
 
-- For testing, you can use the AzureML SDK to call a web service through the **run** method of a **WebService** object that references the deployed service.
-- In production, most client applications will consume the service through its **==REST interface==**. You can determine the endpoint of a deployed service in AzureML Studio or by retrieving the `scoring_uri` property of the Webservice object in the SDK.
+- For testing, you can use the [[AzureML]] SDK to call a web service through the **run** method of a **WebService** object that references the deployed service.
+- In production, most client applications will consume the service through its **==REST interface==**. You can determine the endpoint of a deployed service in [[AzureML]] Studio or by retrieving the `scoring_uri` property of the Webservice object in the SDK.
 ```python
 endpoint = service.scoring_uri
 ```
@@ -163,4 +163,4 @@ monitor = DataDriftDetector.create_from_datasets(
 )
 ```
 
-[[*azure]] [[azureml]]
+[[azure]] [[azureml]]

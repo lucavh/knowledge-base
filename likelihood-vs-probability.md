@@ -1,4 +1,4 @@
-### Waarschijnlijkheid (Probability)
+### Waarschijnlijkheid ([[Probability]])
 
 **Definitie:** Waarschijnlijkheid is een maat voor hoe waarschijnlijk het is dat een bepaalde gebeurtenis plaatsvindt.
 

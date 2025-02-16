@@ -3,4 +3,4 @@ A simple and powerful tool for visualizing all aread of your life at once to see
 ![[wheel-of-life.png]]
 
 [[mentoring]]
-[[*personal-development]]
+[[personal-development]]

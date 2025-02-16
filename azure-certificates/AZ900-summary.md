@@ -101,7 +101,7 @@
 
 - Azure __Synapse Analytics__ - big data analytics platform (PaaS)
 - Azure __HDInsight__ - flexible multi-purpose big data platform (PaaS)
-- Azure __Databricks__ - big data collaboration platform (PaaS)
+- Azure __[[Databricks]]__ - big data collaboration platform (PaaS)
 
 #### Artificial Intelligence
 
@@ -230,4 +230,4 @@
 - Adding __dependency__ (Azure website with SQL DB backend) - `Availability(s1) * Availability(s2)`
 - Adding __redundancy__ (two redundanct web apps behind a load balancer) - `(100 - (Unavailability(web1) * Unavailability(web2)))`
 
-[[*azure]]
+[[azure]]

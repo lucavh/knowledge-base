@@ -1,3 +1,4 @@
+The Zettelkasten method is a personal knowledge management system that focuses on writing and connecting individual notes (or "slips" of paper) to build a network of interconnected ideas. Developed by German sociologist Niklas Luhmann, it’s designed to foster creativity, enhance learning, and improve long-term retention of information.
 ## Types of notes
 
 ### Fleeting Notes
@@ -31,4 +32,4 @@ References:
 - [Website - Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
 - [Book - How to take smart notes](https://www.soenkeahrens.de/en/takesmartnotes#zettelkasten-en)
 
-[[*information-management]]
+[[personal-development]]

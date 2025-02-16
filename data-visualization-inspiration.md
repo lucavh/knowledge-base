@@ -1,4 +1,4 @@
-
+[[resource-stop-aggregating-away-the-signal-in-your-data]]
 
 [Chronotrains: How far can you go by train in Europe?](https://www.chronotrains.com/)
 

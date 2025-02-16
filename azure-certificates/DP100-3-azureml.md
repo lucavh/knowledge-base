@@ -10,7 +10,7 @@
 	- Split data in training and test
 3. __Feature selection__
 	- Filter based feature selection
-	- Pearson correlation, etc.
+	- Pearson [[correlation]], etc.
 	- Fisher Linear Discriminant Analysis
 	- Permutation Feature Importance
 4. __Choose and apply learning algorithms__
@@ -25,7 +25,7 @@
 - Dependencies > Azure Storage Account us for logs etc.
 - Dependencies > Azure Container Registry is for deployment of models
 
-### Data sets or Data assets (AzureML Concept)
+### Data sets or Data assets ([[AzureML]] Concept)
 
 Data sets can be used within Azure ML Workspace in:
 
@@ -43,19 +43,19 @@ To create a dataset, various input sources can be used:
 
 If you use Azure storage as input source, you have to link a storage container (e.g. Blob storage) to the Azure ML workspace using a Datastore.
 
-Datastore stores contain connection information to other data sources within Azure (Blob, Files, Data Lake, Azure SQL, PostgreSQL, MySQL, Azure Databricks, etc.). In that sense it's more like a "Data Connector".
+Datastore stores contain connection information to other data sources within [[Azure]] (Blob, Files, Data Lake, Azure SQL, PostgreSQL, MySQL, Azure [[Databricks]], etc.). In that sense it's more like a "Data Connector".
 
 ### Compute Resources
 
 #### Azure ML Managed Resources (Compute Instances & Compute Clusters)
 
-Compute Instances & Compute Clusters are directly integrated with AzureML Workspace.
+Compute Instances & Compute Clusters are directly integrated with [[AzureML]] Workspace.
 
 ##### Compute Instances:
 
-- __are best for development in notebooks in Python or R environment__
+- __are best for development in notebooks in [[Python]] or R environment__
 - are workstations for data scientists
-- contain R and PythonTools environment, as well as Docker and AzureML SDK
+- contain R and PythonTools environment, as well as Docker and [[AzureML]] SDK
 - have everything configured and pre-installed for you
 
 Compute Instances are typically used in a development environment with notebooks and data profiling. Can also be used for small training and inferencing for development and testing.
@@ -111,6 +111,6 @@ Compute Instances are typically used in a development environment with notebooks
 
 ## AutoML
 
-AutoML can do: (1) classification, (2) regression, (3) time series forecasting
+AutoML can do: (1) [[classification]], (2) [[regression]], (3) time series forecasting
 
-[[*azure]] [[azureml]]
+[[azure]] [[azureml]]

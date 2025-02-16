@@ -1,6 +1,6 @@
 Linear programming (LP) is a mathematical optimization technique used to find the best outcome in a mathematical model with linear relationships. It involves maximizing or minimizing a linear objective function, subject to linear equality and inequality constraints. 
 
-One of the popular Python libraries for solving linear programming problems is [[pulp]]. 
+One of the popular [[Python]] libraries for solving linear programming problems is [[pulp]]. 
 
 **Key Concepts:**
 

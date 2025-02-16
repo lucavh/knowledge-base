@@ -1,7 +1,7 @@
-Protected variations is a [[*software-design]] principle that aims to shield the components of a system from variations or changes in external dependencies. It achieves this by introducing interfaces or abstractions between the components and the external factors, such as third-party libraries or hardware devices. By isolating the core components from these external variations, the system becomes more resilient to changes, reducing the risk of cascading failures and making it easier to adapt to different environments.
+Protected variations is a [[software-design]] principle that aims to shield the components of a system from variations or changes in external dependencies. It achieves this by introducing interfaces or abstractions between the components and the external factors, such as third-party libraries or hardware devices. By isolating the core components from these external variations, the system becomes more resilient to changes, reducing the risk of cascading failures and making it easier to adapt to different environments.
 
 For example, in an e-commerce application, the system needs to handle various payment gateways (e.g., PayPal, Stripe) to process transactions. Instead of directly integrating each payment gateway into the core codebase, the application uses a PaymentProcessor interface. Different payment gateway implementations adhere to this interface. When a user initiates a payment, the core application calls methods through the PaymentProcessor interface without worrying about the specific payment gateway being used. This protected variations approach ensures that changes in a particular payment gateway's API or the addition of a new payment provider do not directly impact the core payment processing logic, resulting in a more stable and adaptable e-commerce system.
 
 Protected variations belongs to the set of [[grasp-design-patterns]].
 
-[[*software-design]]
+[[software-design]]

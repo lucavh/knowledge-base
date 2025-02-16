@@ -2,14 +2,14 @@
 
 - The method `run.wait_for_completion()` with the attribute `show_output=True` configures logging to only show logs after the script execution is completed.
 -  You need to update the storage keys in the workspace after regenerating them: `az ml workspace sync-keys`
-- AzureML Editions:
-	- For image classification projects, the Enterprise edition of AzureML is needed. The Basic edition of AzureML does not support machine learning assisted image classification.
-- Setting up an image classification project:
-	1.  Choose Image ==Classification Multi-class== as the labeling task type.
+- [[AzureML]] Editions:
+	- For image [[classification]] projects, the Enterprise edition of [[AzureML]] is needed. The Basic edition of [[AzureML]] does not support machine learning assisted image [[classification]].
+- Setting up an image [[classification]] project:
+	1.  Choose Image ==[[Classification]] Multi-class== as the labeling task type.
 	2.  Select or create a ==dataset== associated with storage where the images reside.
 	3.  Ensure that the ==Incremental refresh== option is turned on.
 	4.  Create the list of ==label classes== against which you want to categorise your images.
-	5.  Provide any ==instructions== for the labellers on the process of classification.
+	5.  Provide any ==instructions== for the labellers on the process of [[classification]].
 	6.  Ensure that the ==Enable ML assisted labeling== is turned off.
 
 ```python
@@ -204,7 +204,7 @@ run.get_best_child(metric='accuracy')
 
 ## 2 - Objective: Run Experiments and Train Models
 
-- The `polling_interval` configures the frequency at which the datastore is checked for any changes. It does not set an experiment run interval.
+- The `[[polling]]_interval` configures the frequency at which the datastore is checked for any changes. It does not set an experiment run interval.
 - The `script_params` property consists of the dictionary of command-line arguments to pass to the training script specified in the `entry_script` property.
 - Data in pipelines
 	- You need to ensure that files can be passed between pipeline steps using a named datastore:
@@ -217,12 +217,12 @@ run.get_best_child(metric='accuracy')
 		3. Write to `./outputs` or `./logs` folder, `./logs` folder are uploaded in real time
 	- You can use the Select Columns in Dataset module to identify the columns that should be processed and sent to the next pipeline element. By default, no columns are selected, and you will receive an error indicating that a value is required until you select at least one column.
 	- You design and log a monitoring solution for a Linux-based ==Azure HDInsight== solution that is used to analyse large volumes of data. Various operations will execute continuously on the cluster. You need the logging solution to be able to monitor the performance of the cluster. You want to minimise the configuration effort associated with implementing the monitoring solution. You should use ==Apache Ambari==, this simplifies the management and monitoring of Hadoop clusters by providing an easy-to-use web UI backed by its REST APIs. Ambari is provided by default with a Linux-based HDInsight cluster, so configuration efforts are reduced. 
-	- To consume data from the ==default workspace== datastore in an experiment when using the AzureML SDK, either:
+	- To consume data from the ==default workspace== datastore in an experiment when using the [[AzureML]] SDK, either:
 		1.  Use the `get_default_datastore` method of the workspace object
 		2.  Create a reference to `workspaceblobstore` using the `Datastore` class
 - Training video game machine learning models uses a process known as ==reinforcement learning== (RL). Because RL is compute intense, it is typically performed across multiple compute nodes, known as head and worker nodes. In Azure Machine Learning, RL requires that you specify a virtual network that does not block the ports that nodes need to communicate.
 - You can use Azure ML SDK to create, manage workspaces and experiments. If you want to use Azure ML Studio to view associated experiment graphs or individual runs, you can call the ==experiment variable== to generate an ==Azure ML Studio link==. Following this link takes you to the Azure ML Studio page for your experiment.
-- Regularization:
+- [[Regularization]]:
 	- L1 (Lasso) can shrink some coefficients to zero, performing variable selection.
 	- L2 (Ridge) shrinks all the coefficients by the same proportions but eliminates none
 
@@ -258,7 +258,7 @@ You need to monitor and analyse drift in your data as new information is collect
 
 - Algorithms that can be used by AutoML models and support exporting to ONNX (Open Neural Network Exchance) models are: Random Forest and Decision Tree. 
 	- Auto-ARIMA is only suited for time series forecasting and cannot be exported to ONNX models. 
-	- Linear SVC based classification models can be exported to ONNX models, but they are only suited for data classification problems.
+	- Linear SVC based [[classification]] models can be exported to ONNX models, but they are only suited for data [[classification]] problems.
 
 ## 4 - Objective: Deploy and Consume Models
 
@@ -279,7 +279,7 @@ You need to monitor and analyse drift in your data as new information is collect
 			- VM availability is not guaranteed, thus the provided service is not real-time.
 			- Not for pipeline deployment, this is not supported. 
 	- **Linked Services**:
-		- **==Remote/Attached Compute==** are best for training or testing deployment and to be used with Databricks (local, VMs)
+		- **==Remote/Attached Compute==** are best for training or testing deployment and to be used with [[Databricks]] (local, VMs)
 		- **==Inference Clusters==** are best for real-time deployment (AKS Cluster)
 
 - You create a model using the Designer. You click train the model, click Publish button on the designer canvas, select the Create new radio button and click Publish:
@@ -300,7 +300,7 @@ You need to monitor and analyse drift in your data as new information is collect
 	2. Specify `bearer authentication` in the header. As the published model requires authentication, you will need to define an HTTP request header in your code that specifies bearer authentication. 
 	3. Issue an `HTTP POST` request with JSON data. Once your code is complete, you can issue an HTTP POST request to the published service endpoint you discovered using the `scoring_uri` property
 
-- You use AzureML to deploy. Model to an Azure Kubernetes Service cluster. During testing, you receive a large number of HTTP 503 errors. The HTTP 503 error indicates that the service is operational but is unable to respond to requests. This often indicates that the server is overloaded and does not have the resources to process the request. You need to reduce the incidence of HTTP 503 errors:
+- You use [[AzureML]] to deploy. Model to an Azure Kubernetes Service cluster. During testing, you receive a large number of HTTP 503 errors. The HTTP 503 error indicates that the service is operational but is unable to respond to requests. This often indicates that the server is overloaded and does not have the resources to process the request. You need to reduce the incidence of HTTP 503 errors:
 	-   Change the minimum number of ==replicas==. This parameter defines the minimum number of nodes that should be online in an AKS cluster. 
 	-   Modify the `autoscale_max_replicas` parameter. By default an AKS cluster can scale up to 10 containers.
 	-   Change the ==utilisation level== at which containers autoscale up: if there is a sudden increase in requests, the cluster may not be able to add nodes quickly enough to handle the requests. By reducing this threshold, you allow the cluster to scale up under lighter loads.
@@ -322,10 +322,10 @@ You need to monitor and analyse drift in your data as new information is collect
 - You use Azure ML to create and publish a batch inference pipeline. To meet regularory requirements, your pipeline endpoint has been scanned for vulnerabilities. You want to test some changes, but you need to ensure that the existing pipeline is not modified. You also need to ensure that the pipeline endpoint is not changed:
 	1.  Create a new pipeline that implements your changes.
 	2.  Publish the pipeline to your scanned endpoint
-		- AzureML allows you to publish multiple pipelines under the same endpoint. When this occurs, each published pipeline is assigned to a version number, which can be provided in REST API calls. 
+		- [[AzureML]] allows you to publish multiple pipelines under the same endpoint. When this occurs, each published pipeline is assigned to a version number, which can be provided in REST API calls. 
 	3.  Include the test pipeline version in your REST calls
 		- In this question, you want to preserve the existing pipeline, so you should create a new pipeline that implements your changes. You can then publish this pipeline under your existing endpoint. 
-- You use AzureML Designer to create a batch inference pipeline. You plan to publish the pipeline using a web service. You need to ensure that the pipeline can make predictions on the new data supplied at runtime. Therefore, you should create a ==parameter for your dataset==. This option allows consumers to provide a dataset to your pipeline at runtime. 
+- You use [[AzureML]] Designer to create a batch inference pipeline. You plan to publish the pipeline using a web service. You need to ensure that the pipeline can make predictions on the new data supplied at runtime. Therefore, you should create a ==parameter for your dataset==. This option allows consumers to provide a dataset to your pipeline at runtime. 
 
 ### `ParallelRunStep`
 
@@ -357,7 +357,7 @@ You need to monitor and analyse drift in your data as new information is collect
 - Let's say that we find that the recall for validation cases where the applicant is 25 or younger is 0.50, and recall for cases where the applicant is over 25 is 0.83. The disparity in prediction performance between the groups is 33%, with the model predicting significantly more false negatives for the younger age group.
 - Causes of disparity:
 	- Data imbalance
-	- Indirect correlation
+	- Indirect [[correlation]]
 	- Societal biases
 - Mitigating bias:
 	- Balance training and valudation data
@@ -384,7 +384,7 @@ You need to monitor and analyse drift in your data as new information is collect
 	- **System-assigned**: only that Azure resource can use this identity to request tokens from Azure AD, and when the resource is deleted, Azure automatically deletes the identity for you.
 	- **User-assigned**: identity is managed separately from the resources that use it and will persist if a resource using it is removed.
 
-#### Secure your AzureML network
+#### Secure your [[AzureML]] network
 
 - An **Azure VNet (Virtual Network)** is the fundamental building block for your private network in Azure. VNet enables Azure resources, such as Azure Blob Storage and Azure Container Registry, to securely communicate with each other, the internet, and on-premises networks. VNet is similar to a traditional network that you'd operate in your own data center, but brings with it additional benefits of Azure's infrastructure such as scale, availability, and isolation.\
 - Typical structure for VNet is comprised of:
@@ -407,7 +407,7 @@ You need to monitor and analyse drift in your data as new information is collect
 	- Each registered model may have multiple **versions**, which allow a data scientist to keep track of model changes over time.
 	- It is also possible to **stage** models. Each model version may be in one stage, such as **Staging**, **Production**, or **Archived**. 
 
-##### MLFlow & AzureML
+##### MLFlow & [[AzureML]]
 In order to configure MLflow Tracking and connect Azure Machine Learning as the backend for MLFlow experiments, you need to follow these steps as shown in the code snippet:
 ```python
 import mlflow 
@@ -432,8 +432,8 @@ with mlflow.start_run() as run:
 	mlflow.log_artifact("./outputs/results.png")
 ```
 
-##### Running pipeline step on Databricks Compute
-Azure Machine Learning supports a specialized pipeline step called **DatabricksStep** with which you can run a notebook, script, or compiled JAR on an Azure Databricks cluster. In order to run a pipeline step on a Databricks cluster, you need to do the following steps:
+##### Running pipeline step on [[Databricks]] Compute
+[[azureml]] supports a specialized pipeline step called **DatabricksStep** with which you can run a notebook, script, or compiled JAR on an Azure [[Databricks]] cluster. In order to run a pipeline step on a [[Databricks]] cluster, you need to do the following steps:
 
 1.  Attach Azure Databricks Compute to Azure Machine Learning workspace.
 2.  Define DatabricksStep in a pipeline.
@@ -476,7 +476,7 @@ experiment = Experiment(
 pipeline_run = experiment.submit(pipeline)
 ```
 
-### Distributed deel learning with Horovod and Azure Databricks
+### Distributed deel learning with Horovod and Azure [[Databricks]]
 
 When Horovod is used on top of one of the deep learning frameworks (TensorFlow, PyTorch or Keras), it trains multiple models on different batches of the input dataset on separate workers. In other words, multiple models are trained in parallel on separate workers using different subsets of the data.
 
@@ -487,4 +487,4 @@ To distribute the training of a deep learning model using HorovodRunner, you sho
 -   Migrate the code to Horovod.
 -   Use `HorovodRunner` to run the code and distribute your work.
 
-[[*azure]] [[databricks]] [[azureml]]
+[[azure]] [[databricks]] [[azureml]]

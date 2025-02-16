@@ -7,10 +7,10 @@ Characteristics:
 - Variability - inconsistency of dataset
 - Veracity - quality/uncertainty of data captured
 
-### Hadoop vs Spark vs Databricks
+### Hadoop vs Spark vs [[Databricks]]
 
 - Spark is successor of Hadoop
-- Databricks is successor of Databrcks
+- [[Databricks]] is successor of Databrcks
 
 #### Hadoop
 
@@ -38,7 +38,7 @@ Disadvantages:
 
 - Unified analytics engine for large-scale data processing
 - In-memory distributed cluster computing
-- Provides APIs for development in Java, Python, Scala and R
+- Provides APIs for development in Java, [[Python]], Scala and R
 - Support batch and real-time processing
 - Very high speed execution
 
@@ -51,7 +51,7 @@ Architecture:
 - There is no mention of storage. Spark is a unified engine, it does not matter where the data is stored, as long as the worker nodes can access it and load it in memory. 
 
 Ecosystem:
-- Spark Core engine which you can use with APIs for Python, R, Scala and Java
+- Spark Core engine which you can use with APIs for [[Python]], R, Scala and Java
 - Additional components: Spark SQL, Spark Streaming, Spark MLLib, Spark GraphX, SparkR
 
 Disadvantages:
@@ -60,7 +60,7 @@ Disadvantages:
 - Collaboration of work is difficult
 - Not developed as cloud-first
 
-#### Databricks
+#### [[Databricks]]
 
 - A wrapper around Spark
 - Platform optimized for efficient working with Spark
@@ -70,7 +70,7 @@ Disadvantages:
 Architecture:
 ![[databricks_architecture.png]]
 
-## Databricks
+## [[Databricks]]
 
 ### Pricing
 1. All-Purpose: best for data scientists
@@ -78,19 +78,19 @@ Architecture:
 3. Jobs Light: best for data engineers
 
 ### Increasing vCPU Quota Limits
-- Databricks requires you to increase "Total Regional vCPUs" to a minimum of 12. You can update this in the Subscription overview > Settings > Usage + quotas
+- [[Databricks]] requires you to increase "Total Regional vCPUs" to a minimum of 12. You can update this in the Subscription overview > Settings > Usage + quotas
 
-### Databricks clusters
+### [[Databricks]] clusters
 - `Cluster Mode` is about number of concurrent users:
 	- High Concurrency: many concurrent users
 	- Standard: singe-user clusters
 	- Single Mode: no worker nodes
 - `Pools` keep a defined number of ready instanced on standby to reduce cluster startup time.
-- `Worker Type` is the virtual machine type. Charges are in DBU (Databricks Units).
+- `Worker Type` is the virtual machine type. Charges are in DBU ([[Databricks]] Units).
 
-### Link Azure ML Workspace to Databricks Workspace
-- Link an Azure ML workspace through the overview of the Databricks instance in the Azure portal
-- Execute AzureML workspaces from Databricks
+### Link Azure ML Workspace to [[Databricks]] Workspace
+- Link an Azure ML workspace through the overview of the [[Databricks]] instance in the Azure portal
+- Execute [[AzureML]] workspaces from [[Databricks]]
 
 ### Mount Azure Blob Storage containers to DBFS
 ```python
@@ -114,7 +114,7 @@ dbutils.fs.mount(
   extra_configs = {f"fs.azure.account.key.{storage_account_name}.blob.core.windows.net":dbutils.secrets.get(scope = scope_name, key = key_name)})
 ```
 
-### Run a AzureML training script using DataBricksStep in a pipeline
+### Run a [[AzureML]] training script using DataBricksStep in a pipeline
 
 #### Azure ML set-up steps:
 - Part 1:
@@ -123,30 +123,30 @@ dbutils.fs.mount(
 	3. Copy the access key for storage account
 	4. Upload the data/csv to container
 - Part 2:
-	1. Create AzureML Workspace
-	2. Create AzureML Datastore
-	3. Create AzureML Dataset
+	1. Create [[AzureML]] Workspace
+	2. Create [[AzureML]] Datastore
+	3. Create [[AzureML]] Dataset
 - Part 3:
-	1. Create Databricks Workspace
-	2. Create Databricks Cluster
-	3. Create and Copy Databricks workspace access key
+	1. Create [[Databricks]] Workspace
+	2. Create [[Databricks]] Cluster
+	3. Create and Copy [[Databricks]] workspace access key
 
 #### Python job steps:
 - Part 1:
 	1. Create Workspace object from the config file
 	2. Create custom environment and cluster
-	3. Create `run_config` for Python script step
+	3. Create `run_config` for [[Python]] script step
 	4. Create data reference for input dataset
 	5. Create `PipelineData` objects for Input/Output
 - Part 2:
-	1. Create Databricks Compute configurations parameters with key
-	2. Attach the Databricks Cluster as attached computed
+	1. Create [[Databricks]] Compute configurations parameters with key
+	2. Attach the [[Databricks]] Cluster as attached computed
 - Part 3:
 	1. Create `DatabricksStep`
 	2. Create `PythonScriptStep`
 	3. Create Pipeline using `DatabricksStep` and `PythonScriptStep`
 
-#### Databricks notebook steps:
+#### [[Databricks]] notebook steps:
 1. Unmount the input and output data mounts
 2. Get the Inputs and Outputs parameters using `dbutils.widgets.get`
 3. Mount input and output blob storage folders as DBFS directory
@@ -155,4 +155,4 @@ dbutils.fs.mount(
 7. Make output directories on Blob Storage using dummy blob
 8. Save output files using the DBFS mount to Blob Storage
 
-[[*azure]] [[databricks]]
+[[azure]] [[databricks]]

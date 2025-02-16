@@ -1,12 +1,12 @@
 ## Train/test/validation split
 
 - A typical train/test/validation split would be to use 60% of the data for training, 20% of the data for validation, and 20% of the data for testing.
-- **Train-test split**: evaluate the generalization performance on unseen data
-- **[[cross-validation]]**: evaluate the variability of your estimation of the generalization performance
+- **Train-test split**: evaluate the [[generalization]] performance on unseen data
+- **[[cross-validation]]**: evaluate the variability of your estimation of the [[generalization]] performance
 - [[scikit-train-test-split]]
 
 ## Evaluation metrics
-### Classification metrics
+### [[Classification]] metrics
 
 ```code
 accuracy = (TP + TN) / (P + N)
@@ -40,7 +40,7 @@ precision-recall curve (precision vs recall)
 -> average precision (AP) = sum([recalls(k) - recalls(k+1)] * precisions(k))
 ```
 
-- Each point in the curve corresponds to a level of probability which is used as a decision threshold.
+- Each point in the curve corresponds to a level of [[probability]] which is used as a decision threshold.
 - A perfect classifier would have a precision of 1 for all recall values.
 - A metric characterizing the curve is linked to AUC and is named average precision (AP). With an ideal classifier, the average precision would be 1.
 - The average precision is a way to summarize the precision-recall curve into a single value representing the average of all precisions.
@@ -102,7 +102,7 @@ Mean Absolute Percentage Error (MAPE) for relative scaling
 Relative Absolute Error (RAE) = absolute error divided by sum of abs difference to mean
 ```
 
-### Regression metrics
+### [[Regression]] metrics
 
 ```
 R-Squared or Coefficient of Determination (R^2) = 1 - (sum of squares of residuals / total sum of squares)

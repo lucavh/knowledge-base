@@ -1,4 +1,4 @@
-The ==central limit theorem== (CLT) states that a large properly drawn sample will resemble population from which it is drawn. The probability that any sample will deviate massively form the underlying population is low.
+The ==central limit theorem== (CLT) states that a large properly drawn sample will resemble population from which it is drawn. The [[probability]] that any sample will deviate massively form the underlying population is low.
 
 Rule of thumb: for CLT to hold, the sample size must be at least 30.
 
@@ -27,6 +27,6 @@ Example: `population mean = 162`, `σ = 36`, `sample mean = 194`, `sample size =
 
 Most sample means will lie reasonably close to the population mean, the SE is what defines "reasonably close".
 
-CLT tells us that the probability that a sample mean will lie within a certain distance of the population mean. It is relatively unlikely that a sample mean will lie more than two standard errors away from the population mean, etc.
+CLT tells us that the [[probability]] that a sample mean will lie within a certain distance of the population mean. It is relatively unlikely that a sample mean will lie more than two standard errors away from the population mean, etc.
 
 [[statistics]]

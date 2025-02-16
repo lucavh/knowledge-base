@@ -1,4 +1,4 @@
-Method chaining is a technique used to perform multiple data transformations in a single line of code. Method chaining in Pandas allows for cleaner, more readable code and helps streamline data processing workflows.
+Method chaining is a technique used to perform multiple data transformations in a single line of code. Method chaining in [[Pandas]] allows for cleaner, more readable code and helps streamline data processing workflows.
 
 Example of method chaining (with classes):
 

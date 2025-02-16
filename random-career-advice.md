@@ -4,6 +4,4 @@ On traineeships:
 Focus on learning:
 - When still young, try and find places where you’ll learn and develop fast. It’s not about finding the perfect match, as you’ll simply continue to grow and develop over the years and decades to come, and as long as what you learn is relevant (enough) the rate of learning is what matters most. 
 
-
-
 [[mentoring]]

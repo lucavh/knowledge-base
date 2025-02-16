@@ -72,4 +72,4 @@ Resources:
 - https://bigfish.co.uk/editorial/students-need-help-planning-your-career/
 - https://www.mindtools.com/an0fzpz/the-grow-model-of-coaching-and-mentoring
 
-[[*personal-development]]
+[[personal-development]]

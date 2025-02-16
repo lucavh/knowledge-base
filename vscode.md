@@ -6,7 +6,7 @@
 - Quick Open / Go to File: `⌘ P`
 - Settings: `⌘ ,`
 - New Window: `⇧ ⌘ N`
-- Open Terminal Window: ```Ctrl ` ```
+- Open [[terminal]] Window: ```Ctrl ` ```
 
 ## Cursor
 
@@ -24,4 +24,4 @@
 - Format line: `⌘ K ⌘ F`
 - Format document: `⌘ Alt F`
 
-[[*software-development]]
+[[software-development]]

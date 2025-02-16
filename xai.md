@@ -2,8 +2,8 @@
 
 ## Tools and Libraries
 
-- **SHAP (SHapley Additive exPlanations):** A popular Python library for interpreting machine learning models. It helps you understand the impact of each feature on model predictions.
-- **LIME (Local Interpretable Model-agnostic Explanations):** Another Python library that provides local model-agnostic interpretability.
+- **SHAP (SHapley Additive exPlanations):** A popular [[Python]] library for interpreting machine learning models. It helps you understand the impact of each feature on model predictions.
+- **LIME (Local Interpretable Model-agnostic Explanations):** Another [[Python]] library that provides local model-agnostic interpretability.
 - [**InterpretML**](https://interpret.ml/): An open-source library from Microsoft that simplifies the model interpretability process.
 
 ## Other resources

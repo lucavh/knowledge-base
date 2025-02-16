@@ -6,10 +6,10 @@ Uncertainty is not a flaw, but a feature of data. It reflects the complexity and
 
 Before you can communicate uncertainty, it is necessary to measure it. There are various ways to quantify and express uncertainty in data, depending on the type and level of analysis being conducted. 
 
-- Confidence intervals provide ranges of values that capture the true value of a parameter with a certain probability. 
+- Confidence intervals provide ranges of values that capture the true value of a parameter with a certain [[probability]]. 
 - Standard errors measure the variability or precision of an estimate. 
 - P-values are probabilities that assess the evidence against a null hypothesis. 
-- Lastly, Bayesian statistics combine prior knowledge with new data to update the probability of a hypothesis or a parameter. 
+- Lastly, Bayesian statistics combine prior knowledge with new data to update the [[probability]] of a hypothesis or a parameter. 
 
 Resource: 
 

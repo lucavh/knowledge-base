@@ -2,4 +2,4 @@ Data Cards are structured summaries of essential facts about various aspects of 
 
 https://sites.research.google/datacardsplaybook/
 
-[[*information-management]]
+[[data-science]]

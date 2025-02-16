@@ -1,4 +1,4 @@
-# Structure mentoring with the GROW model
+# Structure [[mentoring]] with the GROW model
 
 Empowering dialogue for achieving higher level of clarity and taking action.
 ### 1. Goal - what do you really want?

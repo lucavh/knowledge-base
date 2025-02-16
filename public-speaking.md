@@ -32,4 +32,4 @@ References:
 - Dollar-Smirnova, D. (2021). Public Speaking: Find Your Unique Voice [Online Course](https://www.domestika.org/en/courses/3167-public-speaking-find-your-unique-voice/). Domestika.
 - Schweitzer, R. (2012). Presenteren is een 'feest'.
 
-[[*personal-development]]
+[[personal-development]]

@@ -9,12 +9,12 @@ Two deployment options:
 1. Real-time inference pipeline (REST endpoint)
 2. Batch inference pipeline (storage csv)
 
-## Using Python Scripts in AzureML Designer
+## Using Python Scripts in [[AzureML]] Designer
 
 Requirements:
 - Method must be called `azureml_main`
-- Output has to be a Pandas Dataframe
-- It's similar to the `PythonScriptStep` in the AzureML SDK
+- Output has to be a [[Pandas]] Dataframe
+- It's similar to the `PythonScriptStep` in the [[AzureML]] SDK
 - You can add a Script bundle ZipFile to add modules that can then be accessed in the `azureml_main` method. Make sure to register ZipFile as registered dataset with dataset type `File`.
 
 Example:
@@ -30,4 +30,4 @@ def azureml_main(df1 = None, df2 = None):
 	return X, Y
 ```
 
-[[*azure]] [[azureml]]
+[[azure]] [[azureml]]

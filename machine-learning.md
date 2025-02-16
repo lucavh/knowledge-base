@@ -4,7 +4,7 @@ Machine learning is a field of artificial intelligence that focuses on developin
 
 - **Training Data**: Algorithms learn from a dataset called training data, which consists of input features and corresponding target outcomes.
 - **Learning Process**: Machine learning algorithms identify patterns, relationships, and trends in training data to create predictive models or make decisions.
-- **[[generalization]]**: Trained models apply learned patterns to new, unseen data, making predictions or decisions based on this generalization.
+- **[[generalization]]**: Trained models apply learned patterns to new, unseen data, making predictions or decisions based on this [[generalization]].
 
 ### Types of Machine Learning
 

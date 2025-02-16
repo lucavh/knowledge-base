@@ -1,4 +1,4 @@
-Tree-based learning is a prominent machine learning technique widely used in data science for both classification and regression tasks. It involves constructing decision trees, hierarchical structures that recursively split data into subsets based on the values of input features. These trees facilitate the prediction of target variables by traversing from the root node to leaf nodes, where predictions are made.
+Tree-based learning is a prominent machine learning technique widely used in data science for both [[classification]] and [[regression]] tasks. It involves constructing decision trees, hierarchical structures that recursively split data into subsets based on the values of input features. These trees facilitate the prediction of target variables by traversing from the root node to leaf nodes, where predictions are made.
 
 ### Construction of Decision Trees
 
@@ -8,7 +8,7 @@ Tree-based learning is a prominent machine learning technique widely used in dat
     
 ### Types of Tree-Based Models
 
-1. **Decision Trees**: Simple tree structures used for classification and regression tasks. They are prone to overfitting on complex datasets.
+1. **Decision Trees**: Simple tree structures used for [[classification]] and [[regression]] tasks. They are prone to overfitting on complex datasets.
 2. **Random Forest**: An ensemble method that combines multiple decision trees to improve predictive accuracy and mitigate overfitting.
 3. **Gradient Boosting**: A boosting technique that builds trees sequentially, each correcting the errors of the previous one, leading to enhanced model performance. Examples of these models are [[xgboost]] and [[lightgbm]].    
 

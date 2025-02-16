@@ -11,5 +11,5 @@
 - Dive deeper and understand motivation.
 - Can make you more creative on how to achieve goal.
 
-[[*personal-development]]
+[[personal-development]]
 [[mentoring]]

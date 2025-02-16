@@ -11,7 +11,7 @@ The regression algorithm seeks to find the "best fit" for a ==linear relationshi
 ## Common regression mistakes
 
 1. Use regression to analyse non-linear relationship.
-2. Correlation does not equal causation.
+2. [[Correlation]] does not equal causation.
 3. Reverse causality: don't use explanatory variable that might be affected by the dependent variable.
 4. Ommited variable bias: when you leave out crucial explanatory variables, another variable might "pick-up" the effect.
 5. Highly correlated explanatory variables (multi-collinearity): use either one or create one combined variable.

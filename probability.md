@@ -51,7 +51,7 @@ P(D_3 = sunny)               = (0.9 * 0.8 * 0.8) +
 	2. ==Not hand fallacy==: mistaken belief that a person who experiences a succesful outcome has a greater success in further attempts.
 3. ==Clusters happen==: given enough repetition, unlikely events become more and more likely.
 4. ==Prosecutor's fallacy==: when the context around statistical evidence is neglected, the chances of finding a coincidental one in a million match are relatively high if you run a sample through a database of a million records.
-5. ==Reversion to the mean== (or regression to the mean): any outlier is likely to be followed by outcomes that are more consistent with the long-term given enough repeated samples ([[law-of-large-numbers]]).
-6. ==Statistical discrimination==: statistics often contain social complications, it is wrong to unreasonable discriminate against someone on the basis of irrelevant factors using statistics.
+5. ==Reversion to the mean== (or [[regression]] to the mean): any outlier is likely to be followed by outcomes that are more consistent with the long-term given enough repeated samples ([[law-of-large-numbers]]).
+6. ==Statistical discrimination==: [[statistics]] often contain social complications, it is wrong to unreasonable discriminate against someone on the basis of irrelevant factors using [[statistics]].
 
 [[statistics]]

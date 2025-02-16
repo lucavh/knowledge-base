@@ -1,6 +1,6 @@
 Benefits of having insights into interpretability: 
 
-- Explain the entire model behavior or individual predictions locally as wel as in Azure
+- Explain the entire model behavior or individual predictions locally as wel as in [[Azure]]
 - Enable interpretability techniques for engineered features
 - Use a dashboard to interact with your model explanations ([[data-visualization]])
 - Deploy a scoring explainer alongside your model to observe explanations during inferencing
@@ -25,7 +25,7 @@ Benefits of having insights into interpretability:
 | --------- | ----------- | ---- |
 | SHAP Tree Explainer | Support for Tree algorithms | Model specific |
 | SHAP Deep Explainer | Support for deep learning models | Model specific 
-| SHAP Linear Explainer | Support for linear models (e.g. linear/logistic regression) | Model specific 
+| SHAP Linear Explainer | Support for linear models (e.g. linear/logistic [[regression]]) | Model specific 
 | SHAP Kernel Explainer | Supports every model | Model Agnostic |
 | Mimic Explainer | Creates a surrogate model to mimix the behavior of a black box model | Model Agnostic |
 | Permutation Feature Importance Explainer | Randomly shuffels features | Model Agnostic |

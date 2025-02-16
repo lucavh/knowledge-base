@@ -54,7 +54,7 @@ _ = plt.title("Validation curve for Random Forest")
 
 ![](cv_validation_curve.png)
 
-- **Learning curve**: the influence of the number of samples in a dataset, especially on the variability of the errors reported when running the cross-validation.
+- **Learning curve**: the influence of the number of samples in a dataset, especially on the variability of the errors reported when running the [[cross-validation]].
   - We observe that adding new samples to the training dataset does not seem to improve the training and testing scores. In particular, the testing score oscillates around 76% accuracy. Indeed, ~76% of the samples belong to the class `not donated`.
 
 ![](cv_learning_curve.png)

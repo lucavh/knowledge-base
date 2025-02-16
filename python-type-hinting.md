@@ -1,4 +1,4 @@
-By using type hints, programmers can improve code readability and catch potential errors early during development. While type hints are not enforced at runtime by the Python interpreter, they can be checked using tools like `mypy` to ensure type consistency.
+By using type hints, programmers can improve code readability and catch potential errors early during development. While type hints are not enforced at runtime by the [[Python]] interpreter, they can be checked using tools like `mypy` to ensure type consistency.
 
 ```python
 def add_numbers(a: int, b: int) -> int:

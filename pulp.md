@@ -1,6 +1,6 @@
 Pulp provides a convenient interface to modelling and solving [[linear-programming]] problems using various optimization solvers.
 
-PuLP simplifies the process of formulating and solving LP problems in Python. It supports a variety of optimization solvers, including open-source solvers like CBC and commercial solvers like CPLEX and Gurobi.
+PuLP simplifies the process of formulating and solving LP problems in [[Python]]. It supports a variety of optimization solvers, including open-source solvers like CBC and commercial solvers like CPLEX and Gurobi.
 
 **Example Code:**
 

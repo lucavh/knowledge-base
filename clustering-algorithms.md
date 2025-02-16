@@ -7,7 +7,7 @@ Clustering algorithms are unsupervised machine learning techniques used to group
 	- __Agglomerative__: a bottom-up approach where each observation starts in its own cluster and pairs of clusters are merged as one moves up the hierarch.
 	- __Divisive__: a top-down approach where all observations start in one cluster and splits are performed recursively as one moves down the hierarchy.
 1. **Density-based Clustering**: Density-based algorithms identify regions of high data point density as clusters. They can handle clusters of different shapes and can find outliers effectively. [[dbscan]] is a popular density-based clustering algorithm.
-2. **Model-based Clustering**: Model-based algorithms assume that data points are generated from specific probability distributions. They aim to find the best-fitting model for each cluster. Examples include Gaussian Mixture Models (GMMs).
+2. **Model-based Clustering**: Model-based algorithms assume that data points are generated from specific [[probability]] distributions. They aim to find the best-fitting model for each cluster. Examples include Gaussian Mixture Models (GMMs).
 3. **Fuzzy Clustering**: Fuzzy clustering allows data points to belong to multiple clusters with different degrees of membership. Fuzzy C-Means is a well-known fuzzy clustering algorithm.
 
 ### Use Cases

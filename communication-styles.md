@@ -28,7 +28,7 @@ Defines four social styles: analytic, driver, expressive, and amiable.
 
 ![[Pasted image 20231018151256.png]]
 
-[[*personal-development]]
+[[personal-development]]
 
 
 

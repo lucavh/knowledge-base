@@ -1,4 +1,4 @@
-You can integrate Seaborn plots seamlessly into your Streamlit app to create interactive and visually appealing data visualizations. 
+You can integrate Seaborn plots seamlessly into your [[Streamlit]] app to create interactive and visually appealing data visualizations. 
 
 Example:
 

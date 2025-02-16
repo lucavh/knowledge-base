@@ -1,6 +1,6 @@
 In the realm of machine learning and optimization, Gradient Descent is a foundational algorithm used to minimize functions, particularly in the context of training models. It's like a guide in a hilly landscape, helping us find the lowest point (minimum) efficiently.
 
-Gradient descent is the backbone of training many machine learning models. It's used in tasks ranging from linear regression to complex neural networks. Without this optimization algorithm, the training of models would be infeasible for many real-world applications.
+Gradient descent is the backbone of training many machine learning models. It's used in tasks ranging from linear [[regression]] to complex neural networks. Without this optimization algorithm, the training of models would be infeasible for many real-world applications.
 ## Understanding the Landscape
 
 - Imagine a landscape represented by a mathematical function. The slope of this function at a given point is known as the **rate of change**. It's like measuring how steep the terrain is at a specific location.

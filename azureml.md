@@ -1,4 +1,4 @@
-[Azure Machine Learning (Azure ML)](https://azure.microsoft.com/nl-nl/products/machine-learning) is a cloud-based service provided by Microsoft Azure designed to streamline the end-to-end machine learning lifecycle. It provides tools and infrastructure for:
+[Azure Machine Learning (Azure ML)](https://azure.microsoft.com/nl-nl/products/machine-learning) is a cloud-based service provided by Microsoft [[Azure]] designed to streamline the end-to-end machine learning lifecycle. It provides tools and infrastructure for:
 
 1. Data Preparation: Efficiently gather, clean, and transform data.
 2. Experimentation: Build, train, and evaluate machine learning models using various algorithms and frameworks.
@@ -9,4 +9,4 @@
 
 Azure ML aims to make AI development accessible, scalable, and secure, leveraging the computational power of the cloud.
 
-[[*azure]]
+[[azure]]

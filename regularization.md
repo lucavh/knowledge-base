@@ -15,17 +15,17 @@ Both L1 and L2 regularization prevent overfitting by shrinking (imposing a penal
 
 ### Regularization in Different Models
 
-- **[[linear-regression]]**: Regularized versions are Ridge Regression (L2 regularization) and Lasso Regression (L1 regularization).
+- **[[linear-regression]]**: Regularized versions are Ridge [[Regression]] (L2 regularization) and Lasso [[Regression]] (L1 regularization).
 - **[[logistic-regression]]**: Regularization can help prevent overfitting, especially when dealing with high-dimensional data.
 - **[[neural-networks]]**: Techniques like dropout and weight decay introduce regularization by randomly deactivating neurons during training and penalizing large weight values, respectively.
     
 ### Hyperparameter Tuning
 
-Regularization introduces hyperparameters (e.g., regularization strength) that need to be tuned. Cross-validation and grid search are common methods to find optimal hyperparameter values.
+Regularization introduces hyperparameters (e.g., regularization strength) that need to be tuned. [[Cross-validation]] and grid search are common methods to find optimal hyperparameter values.
 
 ### Balancing Act
 
-- **Under-regularization**: Leads to overfitting and poor generalization.
+- **Under-regularization**: Leads to overfitting and poor [[generalization]].
 - **Over-regularization**: Hampers the model's ability to capture important patterns.
 
 Regularization is a cornerstone of effective machine learning, striking a balance between complexity and simplicity, and facilitating models that perform well on both training and new data.

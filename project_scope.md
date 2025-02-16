@@ -70,3 +70,5 @@ Specification of:
 12. **Budget and Resource Allocation:**
 	- Provide an estimate of the budget and resources required.
 	- Identify any specific tools, software licenses, or hardware needed.
+
+[[project-management]]

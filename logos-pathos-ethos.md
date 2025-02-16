@@ -5,7 +5,7 @@
 
 - **Pathos**: de emotionele laag
 	- Leef je in in je publiek: waar komen ze vandaan, waar hebben ze behoefte aan
-	- Maak connectie: deel persoonlijke ervaring en maak interactie
+	- Maak connectie: deel persoonlijke ervaring en maak [[interactie]]
 	- Maak het tastbaar: gebruik metaforen
 
 - **Ethos**: wie ben je als spreker

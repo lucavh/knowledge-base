@@ -1,4 +1,4 @@
-Object-Oriented Programming (OOP) is a programming paradigm that revolves around the concept of "objects", which are instances of classes. In Python, classes are used to define the structure and behavior of objects.
+Object-Oriented Programming (OOP) is a programming paradigm that revolves around the concept of "objects", which are instances of classes. In [[Python]], classes are used to define the structure and behavior of objects.
 ### Creating a Class
 
 ```python

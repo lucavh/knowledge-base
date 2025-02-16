@@ -155,7 +155,7 @@ Good data:
 - is as unbiased as possible,
 - is not a result of the model itself,
 - has consistent labels, and
-- is big enough to allow generalization.
+- is big enough to allow [[generalization]].
 
 ### Dealing with interaction data
 

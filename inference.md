@@ -1,4 +1,4 @@
-==Statistical inference== cannot prove anything with certainty, it can observe some pattern or outcome and then use probability to determine the most likely explanation for that outcome.
+==Statistical inference== cannot prove anything with certainty, it can observe some pattern or outcome and then use [[probability]] to determine the most likely explanation for that outcome.
 ## Hypothesis testing
 
 Define ==null hypothesis==, e.g. there is no difference, and define ==alternative hypothesis==, e.g. there is a difference. 
@@ -8,7 +8,7 @@ Define ==null hypothesis==, e.g. there is no difference, and define ==alternativ
 
 ==Significance level==: the upper bound for the likelihood of observing some pattern of data if the null hypothesis were true.
 
-==P-value==: the specific probability of getting a result at least as extreme as the one you've observed if the null hypothesis were true or likelihood of observed difference in means.
+==P-value==: the specific [[probability]] of getting a result at least as extreme as the one you've observed if the null hypothesis were true or likelihood of observed difference in means.
 
 ==Confidence interval==: with 95% confidence the value is between two standard errors of the found value.
 
